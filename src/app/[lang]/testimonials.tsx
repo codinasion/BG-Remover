@@ -1,6 +1,11 @@
+import { dictType } from "@/dictionaries";
 import { Star } from "lucide-react";
 
-export default function Testimonials() {
+export default function Testimonials({
+  dict,
+}: {
+  dict: dictType;
+}) {
   return (
     <section
       id="testimonials"
@@ -9,34 +14,33 @@ export default function Testimonials() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Loved by Creators Worldwide
+            {dict.testimonials.text_1}
           </h2>
-          <p className="text-xl text-gray-600">See what our users are saying</p>
+          <p className="text-xl text-gray-600">
+            {dict.testimonials.text_2}
+            </p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
           {[
             {
-              name: "Sarah Chen",
-              role: "E-commerce Owner",
-              content:
-                "This tool saved me hundreds of hours! My product photos look professional and my sales have increased by 40%.",
+              name: dict.testimonials.text_3,
+              role: dict.testimonials.text_4,
+              content:dict.testimonials.text_5,
               rating: 5,
               avatar: "SC",
             },
             {
-              name: "Marco Rodriguez",
-              role: "Social Media Manager",
-              content:
-                "The quality is incredible and it's so fast. I can create engaging posts in minutes instead of hours.",
+              name: dict.testimonials.text_6,
+              role: dict.testimonials.text_7,
+              content:dict.testimonials.text_8,
               rating: 5,
               avatar: "MR",
             },
             {
-              name: "Aisha Patel",
-              role: "Freelance Designer",
-              content:
-                "As someone who works with international clients, this tool is a game-changer. Perfect results every time!",
+              name: dict.testimonials.text_9,
+              role: dict.testimonials.text_10,
+              content:dict.testimonials.text_11,
               rating: 5,
               avatar: "AP",
             },

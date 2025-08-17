@@ -6,5 +6,129 @@
     "codinasion": "Codinasion",
     "og_title": "Free AI Background Remover - Remove Image Backgrounds Instantly | BG Remover",
     "og_description": "Professional AI-powered background removal in seconds. Perfect for e-commerce, social media, and creative projects. 100% free and privacy-focused. Used by 1M+ creators worldwide."
+  },
+  "navbar": {
+    "text_1": "BG Remover",
+    "text_2": "Features",
+    "text_3": "Use Cases",
+    "text_4": "Reviews",
+    "text_5": "Get Started"
+  },
+  "hero": {
+    "text_1": "AI Background Remover Tool",
+    "text_2": "Remove Image Backgrounds Instantly",
+    "text_3": "Professional AI-powered background removal in seconds. Perfect for e-commerce, social media, and creative projects. No design skills required.",
+    "text_4": "Try Free Now"
+  },
+  "component": {
+    "text_1": "Remove Backgrounds in 3 Simple Steps",
+    "text_2": "Upload, process, and download your image with transparent background",
+    "text_3": "Upload Your Image",
+    "text_4": "Drag and drop or click to select",
+    "text_5": "Supports JPG, PNG, WebP (Max 10MB)",
+    "text_6": "Original",
+    "text_7": "Processed",
+    "text_8": "AI is removing background",
+    "text_9": "Click process to see result",
+    "text_10": "Remove Background",
+    "text_11": "Download PNG",
+    "text_12": "Start Over",
+    "text_13": "Tips for Best Results",
+    "text_14": "Use images with clear subject-background contrast",
+    "text_15": "Avoid very small or low-resolution images",
+    "text_16": "Well-lit photos work better than dark images",
+    "text_17": "First-time processing loads the AI model (~50MB)",
+    "text_18": "Processing takes 5-15 seconds depending on device",
+    "text_19": "First use: AI model will download automatically (~50MB, one-time only). That's the cost of Privacy."
+  },
+  "bmc": {
+    "text_1": "Fuel Our Innovation",
+    "text_2": "Love this tool? Support us with a virtual coffee and help us keep improving!",
+    "text_3": "Buy Coffee",
+    "text_4": "Thank you for supporting open-source tools!"
+  },
+  "features": {
+    "text_1": "Powerful Features for Perfect Results",
+    "text_2": "Advanced AI technology meets user-friendly design to deliver professional-quality background removal",
+    "text_3": "Lightning Fast",
+    "text_4": "Process images in under 3 seconds with our optimized AI algorithms",
+    "text_5": "100% Private",
+    "text_6": "Your images are processed locally and never stored on our servers",
+    "text_7": "Works Globally",
+    "text_8": "Optimized for all regions with multi-language support coming soon",
+    "text_9": "High Quality",
+    "text_10": "Preserve image quality with precise edge detection and anti-aliasing",
+    "text_11": "Perfect Precision",
+    "text_12": "AI-powered edge detection handles complex hair, fur, and fine details",
+    "text_13": "Multiple Formats",
+    "text_14": "Download in PNG, JPG, or WebP with transparent or colored backgrounds"
+  },
+  "use_cases": {
+    "text_1": "Perfect for Every Use Case",
+    "text_2": "From e-commerce to social media, see how our tool transforms workflows",
+    "text_3": "E-commerce",
+    "text_4": "Clean product photos for online stores",
+    "text_5": "Photography",
+    "text_6": "Professional portrait editing",
+    "text_7": "Social Media",
+    "text_8": "Eye-catching posts and stories",
+    "text_9": "Marketing",
+    "text_10": "Professional campaign assets"
+  },
+  "fun_facts": {
+    "text_1": "Amazing Numbers",
+    "text_2": "See the impact we're making worldwide",
+    "text_3": "Images Processed",
+    "text_4": "Countries Served",
+    "text_5": "Accuracy Rate",
+    "text_6": "Average Process Time"
+  },
+  "historical_context": {
+    "text_1": "The Evolution of Background Removal",
+    "text_2": "From hours of manual work to instant AI-powered results",
+    "text_3": "Manual Photoshop Era",
+    "text_4": "Designers spent hours manually selecting and removing backgrounds using complex tools",
+    "text_5": "Semi-Automatic Tools",
+    "text_6": "Magic wand and similar tools made the process faster but still required expertise",
+    "text_7": "AI Revolution",
+    "text_8": "Deep learning algorithms can now remove backgrounds instantly with superhuman accuracy"
+  },
+  "testimonials": {
+    "text_1": "Loved by Creators Worldwide",
+    "text_2": "See what our users are saying",
+    "text_3": "Sarah Chen",
+    "text_4": "E-commerce Owner",
+    "text_5": "This tool saved me hundreds of hours! My product photos look professional and my sales have increased by 40%.",
+    "text_6": "Marco Rodriguez",
+    "text_7": "Social Media Manager",
+    "text_8": "The quality is incredible and it's so fast. I can create engaging posts in minutes instead of hours.",
+    "text_9": "Aisha Patel",
+    "text_10": "Freelance Designer",
+    "text_11": "As someone who works with international clients, this tool is a game-changer. Perfect results every time!"
+  },
+  "cta": {
+    "text_1": "Ready to Remove Backgrounds Like a Pro?",
+    "text_2": "Join over 1 million users who trust our AI-powered background removal tool",
+    "text_3": "Start Removing Backgrounds"
+  },
+  "sponsor": {
+    "text_1": "Become Our Exclusive Sponsor",
+    "text_2": "Get permanent branding on our tool used by millions worldwide",
+    "text_3": "Only $100",
+    "text_4": "Lifetime Sponsorship",
+    "text_5": "Limited to 1 Sponsor",
+    "text_6": "What You Get",
+    "text_7": "Your logo prominently displayed",
+    "text_8": "Link to your website",
+    "text_9": "Mentioned in social media",
+    "text_10": "Forever placement guarantee",
+    "text_11": "Perfect For",
+    "text_12": "SaaS companies targeting creatives",
+    "text_13": "Design tools and services",
+    "text_14": "Photography businesses",
+    "text_15": "E-commerce platforms",
+    "text_16":"Claim Sponsorship",
+    "text_17":"Reach 1M+ monthly users",
+    "text_18":"First come, first served"
   }
 }

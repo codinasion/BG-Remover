@@ -1,5 +1,6 @@
 "use client";
 
+import { dictType } from "@/dictionaries";
 import { AlertCircle, X, Upload, Zap, Download } from "lucide-react";
 import { InferenceSession } from "onnxruntime-web";
 import React, { useState, useRef } from "react";
@@ -279,7 +280,11 @@ const removeBackgroundFromImage = async (
   }
 };
 
-export default function Component() {
+export default function Component({
+  dict,
+}: {
+  dict: dictType;
+}) {
   const [selectedImage, setSelectedImage] = useState(null);
   const [selectedImageElement, setSelectedImageElement] = useState(null);
   const [processedImage, setProcessedImage] = useState(null);
@@ -401,68 +406,14 @@ export default function Component() {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            Remove Backgrounds in 3 Simple Steps
+            {dict.component.text_1}
           </h2>
           <p className="text-gray-600 text-lg">
-            Upload, process, and download your image with transparent background
+            {dict.component.text_2}
           </p>
         </div>
 
         <div className="bg-gray-50 rounded-2xl p-8">
-          {/* Model setup instructions */}
-          {/* @ts-expect-error ignore */}
-          {error && error.includes("model not found") && (
-            <div className="mb-6 bg-yellow-50 border border-yellow-200 rounded-lg p-6">
-              <div className="flex items-start gap-3">
-                <AlertCircle className="w-6 h-6 text-yellow-600 flex-shrink-0 mt-1" />
-                <div>
-                  <h4 className="font-semibold text-yellow-800 mb-2">
-                    Setup Required: AI Model Missing
-                  </h4>
-                  <p className="text-yellow-700 mb-3">
-                    To use this tool, you need to download the AI model file.
-                    Follow these steps:
-                  </p>
-                  <ol className="text-yellow-700 text-sm space-y-2 list-decimal list-inside">
-                    <li>
-                      Download{" "}
-                      <code className="bg-yellow-100 px-2 py-1 rounded text-xs">
-                        u2netp.onnx
-                      </code>{" "}
-                      from:
-                      <a
-                        href="https://github.com/xuebinqin/U-2-Net/releases"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-blue-600 hover:underline ml-1"
-                      >
-                        U²-Net GitHub Releases
-                      </a>
-                    </li>
-                    <li>
-                      Create a{" "}
-                      <code className="bg-yellow-100 px-2 py-1 rounded text-xs">
-                        public/models/
-                      </code>{" "}
-                      folder in your project
-                    </li>
-                    <li>
-                      Place the{" "}
-                      <code className="bg-yellow-100 px-2 py-1 rounded text-xs">
-                        u2netp.onnx
-                      </code>{" "}
-                      file inside it
-                    </li>
-                    <li>Refresh this page and try again</li>
-                  </ol>
-                  <p className="text-yellow-600 text-xs mt-3">
-                    💡 The model is ~50MB and only needs to be downloaded once
-                  </p>
-                </div>
-              </div>
-            </div>
-          )}
-
           {/* Regular error display for other errors */}
           {/* @ts-expect-error ignore */}
           {error && !error.includes("model not found") && (
@@ -486,19 +437,18 @@ export default function Component() {
             >
               <Upload className="w-16 h-16 text-blue-500 mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                Upload Your Image
+                {dict.component.text_3}
               </h3>
               <p className="text-gray-600 mb-4">
-                Drag and drop or click to select
+                {dict.component.text_4}
               </p>
               <p className="text-sm text-gray-500">
-                Supports JPG, PNG, WebP (Max 10MB)
+                {dict.component.text_5}
               </p>
               <input
                 ref={fileInputRef}
                 type="file"
                 accept="image/jpeg,image/jpg,image/png,image/webp"
-                // @ts-expect-error ignore
                 onChange={handleImageUpload}
                 className="hidden"
               />
@@ -507,7 +457,7 @@ export default function Component() {
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h4 className="font-semibold text-gray-900 mb-3 text-center">
-                  Original
+                  {dict.component.text_6}
                 </h4>
                 <div className="bg-white rounded-lg p-4 shadow-sm">
                   <img
@@ -520,7 +470,7 @@ export default function Component() {
 
               <div>
                 <h4 className="font-semibold text-gray-900 mb-3 text-center">
-                  Processed
+                  {dict.component.text_7}
                 </h4>
                 <div className="bg-white rounded-lg p-4 shadow-sm relative">
                   {processedImage ? (
@@ -546,7 +496,7 @@ export default function Component() {
                             </div>
                           </div>
                           <p className="text-gray-600 font-medium">
-                            AI is removing background...
+                            {dict.component.text_8}
                           </p>
                           <div className="w-48 bg-gray-200 rounded-full h-2 mt-3">
                             <div
@@ -557,7 +507,7 @@ export default function Component() {
                         </div>
                       ) : (
                         <p className="text-gray-500">
-                          Click process to see result
+                          {dict.component.text_9}
                         </p>
                       )}
                     </div>
@@ -576,7 +526,7 @@ export default function Component() {
                   className="bg-gradient-to-r from-green-500 to-blue-600 text-white px-8 py-3 rounded-xl font-semibold hover:shadow-lg transition-all flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   <Zap className="w-5 h-5" />
-                  Remove Background
+                  {dict.component.text_10}
                 </button>
               )}
 
@@ -586,7 +536,7 @@ export default function Component() {
                   className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-3 rounded-xl font-semibold hover:shadow-lg transition-all flex items-center justify-center gap-2"
                 >
                   <Download className="w-5 h-5" />
-                  Download PNG
+                  {dict.component.text_11}
                 </button>
               )}
 
@@ -595,7 +545,7 @@ export default function Component() {
                 disabled={isProcessing}
                 className="border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-xl font-semibold hover:border-red-500 hover:text-red-500 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                Start Over
+                {dict.component.text_12}
               </button>
             </div>
           )}
@@ -604,14 +554,14 @@ export default function Component() {
           {selectedImage && !processedImage && !isProcessing && (
             <div className="mt-8 bg-blue-50 border border-blue-200 rounded-lg p-4">
               <h5 className="font-semibold text-blue-900 mb-2">
-                💡 Tips for Best Results:
+                💡 {dict.component.text_13}:
               </h5>
               <ul className="text-blue-800 text-sm space-y-1">
-                <li>• Use images with clear subject-background contrast</li>
-                <li>• Avoid very small or low-resolution images</li>
-                <li>• Well-lit photos work better than dark images</li>
-                <li>• First-time processing loads the AI model (~50MB)</li>
-                <li>• Processing takes 5-15 seconds depending on device</li>
+                <li>• {dict.component.text_14}</li>
+                <li>• {dict.component.text_15}</li>
+                <li>• {dict.component.text_16}</li>
+                <li>• {dict.component.text_17}</li>
+                <li>• {dict.component.text_18}</li>
               </ul>
             </div>
           )}
@@ -622,9 +572,7 @@ export default function Component() {
               <div className="flex items-center gap-3">
                 <div className="w-2 h-2 bg-amber-500 rounded-full animate-pulse"></div>
                 <p className="text-amber-800 text-sm">
-                  <strong>First use:</strong> AI model will download
-                  automatically (~50MB, one-time only). That's the cost of
-                  Privacy.
+                  {dict.component.text_19}
                 </p>
               </div>
             </div>

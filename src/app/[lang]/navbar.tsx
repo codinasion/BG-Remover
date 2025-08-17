@@ -1,9 +1,16 @@
 "use client";
 
+import { dictType } from "@/dictionaries";
 import { Scissors, X, Menu } from "lucide-react";
 import { useState } from "react";
 
-export default function Navbar() {
+export default function Navbar({
+  dict,
+  lang,
+}: {
+  dict: dictType;
+  lang: string;
+}) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
@@ -14,7 +21,7 @@ export default function Navbar() {
             <div className="bg-gradient-to-r from-blue-600 to-purple-600 p-2 rounded-lg">
               <Scissors className="w-6 h-6 text-white" />
             </div>
-            <span className="font-bold text-xl text-gray-900">BG Remover</span>
+            <span className="font-bold text-xl text-gray-900">{dict.navbar.text_1}</span>
           </div>
 
           {/* Desktop Menu */}
@@ -23,22 +30,22 @@ export default function Navbar() {
               href="#features"
               className="text-gray-700 hover:text-blue-600 transition-colors"
             >
-              Features
+              {dict.navbar.text_2}
             </a>
             <a
               href="#use-cases"
               className="text-gray-700 hover:text-blue-600 transition-colors"
             >
-              Use Cases
+              {dict.navbar.text_3}
             </a>
             <a
               href="#testimonials"
               className="text-gray-700 hover:text-blue-600 transition-colors"
             >
-              Reviews
+              {dict.navbar.text_4}
             </a>
             <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-lg hover:shadow-lg transition-all">
-              Get Started
+              {dict.navbar.text_5}
             </button>
           </div>
 
@@ -60,16 +67,16 @@ export default function Navbar() {
           <div className="md:hidden bg-white border-t border-gray-200">
             <div className="px-2 pt-2 pb-3 space-y-1">
               <a href="#features" className="block px-3 py-2 text-gray-700">
-                Features
+                {dict.navbar.text_2}
               </a>
               <a href="#use-cases" className="block px-3 py-2 text-gray-700">
-                Use Cases
+                {dict.navbar.text_3}
               </a>
               <a href="#testimonials" className="block px-3 py-2 text-gray-700">
-                Reviews
+                {dict.navbar.text_4}
               </a>
               <button className="w-full text-left bg-blue-600 text-white px-3 py-2 rounded-lg mt-2">
-                Get Started
+                {dict.navbar.text_5}
               </button>
             </div>
           </div>

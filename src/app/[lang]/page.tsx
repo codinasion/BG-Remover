@@ -22,32 +22,33 @@ export async function generateStaticParams() {
 export default async function Page({ params }: { params: Promise<langType> }) {
   const { lang } = await params;
   const dict = await getDictionary(lang);
+
   return (
     <>
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
-        <Navbar />
+        <Navbar lang={lang} dict={dict}/>
 
-        <Hero />
+        <Hero dict={dict}/>
 
-        <Component />
+        <Component dict={dict}/>
 
         <Comment />
 
-        <BuyMeACoffee />
+        <BuyMeACoffee dict={dict}/>
 
-        <Features />
+        <Features dict={dict}/>
 
-        <UseCases />
+        <UseCases dict={dict}/>
 
-        <FunFacts />
+        <FunFacts dict={dict}/>
 
-        <HistoricalContext />
+        <HistoricalContext dict={dict}/>
 
-        <Testimonials />
+        <Testimonials dict={dict}/>
 
-        <CTA />
+        <CTA dict={dict}/>
 
-        <Sponsor />
+        <Sponsor dict={dict}/>
 
         <Footer />
       </div>

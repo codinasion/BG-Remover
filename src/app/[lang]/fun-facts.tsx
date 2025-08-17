@@ -1,15 +1,20 @@
+import { dictType } from "@/dictionaries";
 import { ImageIcon, Globe, Target, Clock } from "lucide-react";
 
-export default function FunFacts() {
+export default function FunFacts({
+  dict,
+}: {
+  dict: dictType;
+}) {
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Amazing Numbers
+            {dict.fun_facts.text_1}
           </h2>
           <p className="text-xl opacity-90">
-            See the impact we're making worldwide
+            {dict.fun_facts.text_2}
           </p>
         </div>
 
@@ -17,22 +22,22 @@ export default function FunFacts() {
           {[
             {
               number: "1M+",
-              label: "Images Processed",
+              label: dict.fun_facts.text_3,
               icon: <ImageIcon className="w-8 h-8" />,
             },
             {
               number: "50+",
-              label: "Countries Served",
+              label: dict.fun_facts.text_4,
               icon: <Globe className="w-8 h-8" />,
             },
             {
               number: "99.9%",
-              label: "Accuracy Rate",
+              label: dict.fun_facts.text_5,
               icon: <Target className="w-8 h-8" />,
             },
             {
               number: "2.1s",
-              label: "Average Process Time",
+              label: dict.fun_facts.text_6,
               icon: <Clock className="w-8 h-8" />,
             },
           ].map((stat, index) => (

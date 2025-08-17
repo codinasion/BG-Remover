@@ -1,13 +1,19 @@
-export default function HistoricalContext() {
+import { dictType } from "@/dictionaries";
+
+export default function HistoricalContext({
+  dict,
+}: {
+  dict: dictType;
+}) {
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            The Evolution of Background Removal
+            {dict.historical_context.text_1}
           </h2>
           <p className="text-xl text-gray-600">
-            From hours of manual work to instant AI-powered results
+            {dict.historical_context.text_2}
           </p>
         </div>
 
@@ -15,21 +21,18 @@ export default function HistoricalContext() {
           {[
             {
               year: "1990s",
-              title: "Manual Photoshop Era",
-              description:
-                "Designers spent hours manually selecting and removing backgrounds using complex tools",
+              title: dict.historical_context.text_3,
+              description:dict.historical_context.text_4
             },
             {
               year: "2010s",
-              title: "Semi-Automatic Tools",
-              description:
-                "Magic wand and similar tools made the process faster but still required expertise",
+              title: dict.historical_context.text_5,
+              description:dict.historical_context.text_6
             },
             {
               year: "2020s",
-              title: "AI Revolution",
-              description:
-                "Deep learning algorithms can now remove backgrounds instantly with superhuman accuracy",
+              title: dict.historical_context.text_7,
+              description:dict.historical_context.text_8
             },
           ].map((era, index) => (
             <div key={index} className="flex items-start gap-6">

@@ -1,16 +1,20 @@
+import { dictType } from "@/dictionaries";
 import { ShoppingBag, Camera, Users, Briefcase } from "lucide-react";
 
-export default function UseCases() {
+export default function UseCases({
+  dict,
+}: {
+  dict: dictType;
+}) {
   return (
     <section id="use-cases" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Perfect for Every Use Case
+            {dict.use_cases.text_1}
           </h2>
           <p className="text-xl text-gray-600">
-            From e-commerce to social media, see how our tool transforms
-            workflows
+            {dict.use_cases.text_2}
           </p>
         </div>
 
@@ -18,26 +22,26 @@ export default function UseCases() {
           {[
             {
               icon: <ShoppingBag className="w-6 h-6" />,
-              title: "E-commerce",
-              description: "Clean product photos for online stores",
+              title: dict.use_cases.text_3,
+              description: dict.use_cases.text_4,
               bgColor: "bg-blue-500",
             },
             {
               icon: <Camera className="w-6 h-6" />,
-              title: "Photography",
-              description: "Professional portrait editing",
+              title: dict.use_cases.text_5,
+              description: dict.use_cases.text_6,
               bgColor: "bg-purple-500",
             },
             {
               icon: <Users className="w-6 h-6" />,
-              title: "Social Media",
-              description: "Eye-catching posts and stories",
+              title: dict.use_cases.text_7,
+              description: dict.use_cases.text_8,
               bgColor: "bg-pink-500",
             },
             {
               icon: <Briefcase className="w-6 h-6" />,
-              title: "Marketing",
-              description: "Professional campaign assets",
+              title: dict.use_cases.text_9,
+              description: dict.use_cases.text_10,
               bgColor: "bg-green-500",
             },
           ].map((useCase, index) => (
