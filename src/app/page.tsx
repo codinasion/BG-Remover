@@ -17,7 +17,7 @@ const loadModel = async () => {
       const ort = await import('onnxruntime-web');
 
       // Try to load the model with better error handling
-      session = await ort.InferenceSession.create('/models/u2netp.onnx', {
+      session = await ort.InferenceSession.create('/models/u2net.quant.onnx', {
         executionProviders: ['wasm'], // Can switch to 'webgpu' when supported
       });
     } catch (error) {
