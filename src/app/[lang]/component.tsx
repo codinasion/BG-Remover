@@ -280,11 +280,7 @@ const removeBackgroundFromImage = async (
   }
 };
 
-export default function Component({
-  dict,
-}: {
-  dict: dictType;
-}) {
+export default function Component({ dict }: { dict: dictType }) {
   const [selectedImage, setSelectedImage] = useState(null);
   const [selectedImageElement, setSelectedImageElement] = useState(null);
   const [processedImage, setProcessedImage] = useState(null);
@@ -402,15 +398,13 @@ export default function Component({
     setError(null);
   };
   return (
-    <section id="tool" className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+    <section id="component" className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
             {dict.component.text_1}
           </h2>
-          <p className="text-gray-600 text-lg">
-            {dict.component.text_2}
-          </p>
+          <p className="text-gray-600 text-lg">{dict.component.text_2}</p>
         </div>
 
         <div className="bg-gray-50 rounded-2xl p-8">
@@ -439,12 +433,8 @@ export default function Component({
               <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 {dict.component.text_3}
               </h3>
-              <p className="text-gray-600 mb-4">
-                {dict.component.text_4}
-              </p>
-              <p className="text-sm text-gray-500">
-                {dict.component.text_5}
-              </p>
+              <p className="text-gray-600 mb-4">{dict.component.text_4}</p>
+              <p className="text-sm text-gray-500">{dict.component.text_5}</p>
               <input
                 ref={fileInputRef}
                 type="file"
@@ -506,9 +496,7 @@ export default function Component({
                           </div>
                         </div>
                       ) : (
-                        <p className="text-gray-500">
-                          {dict.component.text_9}
-                        </p>
+                        <p className="text-gray-500">{dict.component.text_9}</p>
                       )}
                     </div>
                   )}

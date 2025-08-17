@@ -1,11 +1,9 @@
+"use client";
+
 import { dictType } from "@/dictionaries";
 import { Sparkles } from "lucide-react";
 
-export default function Hero({
-  dict,
-}: {
-  dict: dictType;
-}) {
+export default function Hero({ dict }: { dict: dictType }) {
   return (
     <section className="pt-24 pb-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
@@ -25,9 +23,11 @@ export default function Hero({
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button
-              // onClick={() =>
-              //     document.getElementById("tool").scrollIntoView()
-              // }
+              onClick={() =>
+                document
+                  .querySelector("#component")
+                  ?.scrollIntoView({ behavior: "smooth" })
+              }
               className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-xl text-lg font-semibold hover:shadow-2xl transform hover:-translate-y-1 transition-all flex items-center justify-center gap-2"
             >
               <Sparkles className="w-5 h-5" />

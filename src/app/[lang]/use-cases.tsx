@@ -1,11 +1,7 @@
 import { dictType } from "@/dictionaries";
 import { ShoppingBag, Camera, Users, Briefcase } from "lucide-react";
 
-export default function UseCases({
-  dict,
-}: {
-  dict: dictType;
-}) {
+export default function UseCases({ dict }: { dict: dictType }) {
   return (
     <section id="use-cases" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
       <div className="max-w-7xl mx-auto">
@@ -13,9 +9,7 @@ export default function UseCases({
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             {dict.use_cases.text_1}
           </h2>
-          <p className="text-xl text-gray-600">
-            {dict.use_cases.text_2}
-          </p>
+          <p className="text-xl text-gray-600">{dict.use_cases.text_2}</p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">

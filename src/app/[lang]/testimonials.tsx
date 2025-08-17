@@ -1,11 +1,7 @@
 import { dictType } from "@/dictionaries";
 import { Star } from "lucide-react";
 
-export default function Testimonials({
-  dict,
-}: {
-  dict: dictType;
-}) {
+export default function Testimonials({ dict }: { dict: dictType }) {
   return (
     <section
       id="testimonials"
@@ -16,9 +12,7 @@ export default function Testimonials({
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             {dict.testimonials.text_1}
           </h2>
-          <p className="text-xl text-gray-600">
-            {dict.testimonials.text_2}
-            </p>
+          <p className="text-xl text-gray-600">{dict.testimonials.text_2}</p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
@@ -26,21 +20,21 @@ export default function Testimonials({
             {
               name: dict.testimonials.text_3,
               role: dict.testimonials.text_4,
-              content:dict.testimonials.text_5,
+              content: dict.testimonials.text_5,
               rating: 5,
               avatar: "SC",
             },
             {
               name: dict.testimonials.text_6,
               role: dict.testimonials.text_7,
-              content:dict.testimonials.text_8,
+              content: dict.testimonials.text_8,
               rating: 5,
               avatar: "MR",
             },
             {
               name: dict.testimonials.text_9,
               role: dict.testimonials.text_10,
-              content:dict.testimonials.text_11,
+              content: dict.testimonials.text_11,
               rating: 5,
               avatar: "AP",
             },

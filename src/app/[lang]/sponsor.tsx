@@ -1,11 +1,8 @@
 import { dictType } from "@/dictionaries";
 import { Crown, Check } from "lucide-react";
+import Link from "next/link";
 
-export default function Sponsor({
-  dict,
-}: {
-  dict: dictType;
-}) {
+export default function Sponsor({ dict }: { dict: dictType }) {
   return (
     <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-yellow-50 to-amber-50">
       <div className="max-w-4xl mx-auto">
@@ -15,11 +12,10 @@ export default function Sponsor({
             <h3 className="text-3xl font-bold text-gray-900 mb-2">
               {dict.sponsor.text_1}
             </h3>
-            <p className="text-gray-600 text-lg">
-              {dict.sponsor.text_2}
-            </p>
+            <p className="text-gray-600 text-lg">{dict.sponsor.text_2}</p>
             <div className="bg-yellow-100 text-yellow-800 px-6 py-3 rounded-full text-lg font-bold mt-4 inline-block">
-              {dict.sponsor.text_3} • {dict.sponsor.text_4} • {dict.sponsor.text_5}
+              {dict.sponsor.text_3} • {dict.sponsor.text_4} •{" "}
+              {dict.sponsor.text_5}
             </div>
           </div>
 
@@ -57,10 +53,16 @@ export default function Sponsor({
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 items-center justify-center">
-            <button className="bg-gradient-to-r from-yellow-500 to-amber-500 text-white px-8 py-3 rounded-lg font-semibold hover:shadow-lg transition-all flex items-center gap-2">
-              <Crown className="w-5 h-5" />
-             {dict.sponsor.text_16}
-            </button>
+            <Link
+              href="https://buymeacoffee.com/codinasion/e/447451"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="bg-gradient-to-r from-yellow-500 to-amber-500 text-white px-8 py-3 rounded-lg font-semibold hover:shadow-lg transition-all flex items-center gap-2">
+                <Crown className="w-5 h-5" />
+                {dict.sponsor.text_16}
+              </button>
+            </Link>
           </div>
 
           <p className="text-center text-sm text-gray-500 mt-4">

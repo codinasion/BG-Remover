@@ -1,11 +1,7 @@
 import { dictType } from "@/dictionaries";
 import { ImageIcon, Globe, Target, Clock } from "lucide-react";
 
-export default function FunFacts({
-  dict,
-}: {
-  dict: dictType;
-}) {
+export default function FunFacts({ dict }: { dict: dictType }) {
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
       <div className="max-w-7xl mx-auto">
@@ -13,9 +9,7 @@ export default function FunFacts({
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             {dict.fun_facts.text_1}
           </h2>
-          <p className="text-xl opacity-90">
-            {dict.fun_facts.text_2}
-          </p>
+          <p className="text-xl opacity-90">{dict.fun_facts.text_2}</p>
         </div>
 
         <div className="grid md:grid-cols-4 gap-8 text-center">

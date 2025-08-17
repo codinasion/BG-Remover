@@ -26,29 +26,29 @@ export default async function Page({ params }: { params: Promise<langType> }) {
   return (
     <>
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
-        <Navbar lang={lang} dict={dict}/>
+        <Navbar lang={lang} dict={dict} />
 
-        <Hero dict={dict}/>
+        <Hero dict={dict} />
 
-        <Component dict={dict}/>
+        <Component dict={dict} />
 
         <Comment />
 
-        <BuyMeACoffee dict={dict}/>
+        <BuyMeACoffee dict={dict} />
 
-        <Features dict={dict}/>
+        <Features dict={dict} />
 
-        <UseCases dict={dict}/>
+        <UseCases dict={dict} />
 
-        <FunFacts dict={dict}/>
+        <FunFacts dict={dict} />
 
-        <HistoricalContext dict={dict}/>
+        <HistoricalContext dict={dict} />
 
-        <Testimonials dict={dict}/>
+        <Testimonials dict={dict} />
 
-        <CTA dict={dict}/>
+        <CTA dict={dict} />
 
-        <Sponsor dict={dict}/>
+        <Sponsor dict={dict} />
 
         <Footer />
       </div>

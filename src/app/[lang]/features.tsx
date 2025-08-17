@@ -1,11 +1,7 @@
 import { dictType } from "@/dictionaries";
 import { Download, Globe, ImageIcon, Shield, Target, Zap } from "lucide-react";
 
-export default function Features({
-  dict,
-}: {
-  dict: dictType;
-}) {
+export default function Features({ dict }: { dict: dictType }) {
   return (
     <section id="features" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
@@ -23,37 +19,37 @@ export default function Features({
             {
               icon: <Zap className="w-8 h-8" />,
               title: dict.features.text_3,
-              description:dict.features.text_4,
+              description: dict.features.text_4,
               color: "from-yellow-400 to-orange-500",
             },
             {
               icon: <Shield className="w-8 h-8" />,
               title: dict.features.text_5,
-              description:dict.features.text_6,
+              description: dict.features.text_6,
               color: "from-green-400 to-blue-500",
             },
             {
               icon: <Globe className="w-8 h-8" />,
               title: dict.features.text_7,
-              description:dict.features.text_8,
+              description: dict.features.text_8,
               color: "from-blue-400 to-purple-500",
             },
             {
               icon: <ImageIcon className="w-8 h-8" />,
               title: dict.features.text_9,
-              description:dict.features.text_10,
+              description: dict.features.text_10,
               color: "from-purple-400 to-pink-500",
             },
             {
               icon: <Target className="w-8 h-8" />,
               title: dict.features.text_11,
-              description:dict.features.text_12,
+              description: dict.features.text_12,
               color: "from-pink-400 to-red-500",
             },
             {
               icon: <Download className="w-8 h-8" />,
               title: dict.features.text_13,
-              description:dict.features.text_14,
+              description: dict.features.text_14,
               color: "from-indigo-400 to-blue-500",
             },
           ].map((feature, index) => (

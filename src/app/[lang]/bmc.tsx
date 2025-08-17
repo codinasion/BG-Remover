@@ -1,11 +1,8 @@
 import { dictType } from "@/dictionaries";
 import { Coffee, Heart } from "lucide-react";
+import Link from "next/link";
 
-export default function BuyMeACoffee({
-  dict,
-}: {
-  dict: dictType;
-}) {
+export default function BuyMeACoffee({ dict }: { dict: dictType }) {
   return (
     <section className="py-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-amber-50 to-orange-50">
       <div className="max-w-4xl mx-auto">
@@ -15,16 +12,20 @@ export default function BuyMeACoffee({
             <h3 className="text-2xl font-bold text-gray-900 mb-2">
               {dict.bmc.text_1} ☕
             </h3>
-            <p className="text-gray-600">
-              {dict.bmc.text_2}
-            </p>
+            <p className="text-gray-600">{dict.bmc.text_2}</p>
           </div>
 
           <div className="flex flex-col sm:flex-row items-center gap-6 justify-center">
-            <button className="bg-gradient-to-r from-amber-500 to-orange-500 text-white px-8 py-3 rounded-xl font-semibold hover:shadow-lg transition-all flex items-center gap-2">
-              <Heart className="w-5 h-5" />
-              {dict.bmc.text_3} - $1
-            </button>
+            <Link
+              href="https://buymeacoffee.com/codinasion"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="bg-gradient-to-r from-amber-500 to-orange-500 text-white px-8 py-3 rounded-xl font-semibold hover:shadow-lg transition-all flex items-center gap-2">
+                <Heart className="w-5 h-5" />
+                {dict.bmc.text_3} - $1
+              </button>
+            </Link>
           </div>
 
           <p className="text-center text-sm text-gray-500 mt-4">
