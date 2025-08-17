@@ -6,13 +6,17 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,mjs,md,mdx,json,yml,yaml,html,css}\"",
+    "all": "pnpm format && pnpm lint && pnpm build"
   },
   "dependencies": {
-    "@imgly/background-removal": "^1.7.0",
+    "@giscus/react": "^3.1.0",
+    "@next/third-parties": "^15.4.6",
     "lucide-react": "^0.539.0",
     "next": "15.4.6",
     "onnxruntime-web": "^1.22.0",
+    "prettier": "^3.6.2",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },
