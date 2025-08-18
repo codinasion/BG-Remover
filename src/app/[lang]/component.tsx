@@ -10,17 +10,14 @@ let session: InferenceSession | null = null;
 const loadModel = async () => {
   if (!session) {
     try {
-      // Dynamic import to avoid SSR issues
       const ort = await import("onnxruntime-web");
 
-      // Try to load the model with better error handling
       session = await ort.InferenceSession.create("/models/u2net.quant.onnx", {
-        executionProviders: ["wasm"], // Can switch to 'webgpu' when supported
+        executionProviders: ["wasm"],
       });
     } catch (error) {
       console.error("Failed to load U²-Net model:", error);
 
-      // Provide specific error messages based on the error type
       if (
         // @ts-expect-error ignore
         error.message.includes("404") ||
@@ -65,11 +62,9 @@ const removeBackgroundFromImage = async (
 
     const ort = await import("onnxruntime-web");
 
-    // Keep model's expected input size
     const H = 320;
     const W = 320;
 
-    // Prepare canvas for processing
     const canvas = document.createElement("canvas");
     const ctx = canvas.getContext("2d");
     canvas.width = W;
@@ -77,7 +72,6 @@ const removeBackgroundFromImage = async (
 
     onProgress(35);
 
-    // Draw and resize image with better interpolation
     // @ts-expect-error ignore
     ctx.imageSmoothingEnabled = true;
     // @ts-expect-error ignore
@@ -89,24 +83,21 @@ const removeBackgroundFromImage = async (
 
     onProgress(45);
 
-    // Convert to tensor format [1,3,H,W] with better normalization
     const float32Data = new Float32Array(3 * W * H);
     for (let i = 0; i < W * H; i++) {
-      // Apply slight contrast enhancement for better segmentation
       const r = imgData.data[i * 4] / 255.0;
       const g = imgData.data[i * 4 + 1] / 255.0;
       const b = imgData.data[i * 4 + 2] / 255.0;
 
-      float32Data[i] = Math.min(Math.max(r * 1.05 - 0.025, 0), 1); // R with subtle contrast
-      float32Data[i + W * H] = Math.min(Math.max(g * 1.05 - 0.025, 0), 1); // G with subtle contrast
-      float32Data[i + 2 * W * H] = Math.min(Math.max(b * 1.05 - 0.025, 0), 1); // B with subtle contrast
+      float32Data[i] = Math.min(Math.max(r * 1.05 - 0.025, 0), 1);
+      float32Data[i + W * H] = Math.min(Math.max(g * 1.05 - 0.025, 0), 1);
+      float32Data[i + 2 * W * H] = Math.min(Math.max(b * 1.05 - 0.025, 0), 1);
     }
 
     const tensor = new ort.Tensor("float32", float32Data, [1, 3, H, W]);
 
     onProgress(60);
 
-    // Run inference - try different possible input names
     let results;
     try {
       // @ts-expect-error ignore
@@ -141,7 +132,6 @@ const removeBackgroundFromImage = async (
 
     onProgress(80);
 
-    // Get output
     let output;
     const outputNames = Object.keys(results);
     console.log("Available output names:", outputNames);
@@ -152,19 +142,15 @@ const removeBackgroundFromImage = async (
       throw new Error("No model outputs found.");
     }
 
-    // Process mask with improved quality
     const maskData = output.data;
 
-    // Apply advanced post-processing to improve mask quality
     const processedMask = new Float32Array(W * H);
 
-    // First pass: Apply bilateral-like filtering for edge preservation
     for (let y = 1; y < H - 1; y++) {
       for (let x = 1; x < W - 1; x++) {
         const idx = y * W + x;
         const center = maskData[idx];
 
-        // Get 3x3 neighborhood
         const neighbors = [];
         for (let dy = -1; dy <= 1; dy++) {
           for (let dx = -1; dx <= 1; dx++) {
@@ -172,13 +158,12 @@ const removeBackgroundFromImage = async (
           }
         }
 
-        // Weighted average with edge preservation
         let weightedSum = 0;
         let totalWeight = 0;
 
         neighbors.forEach((neighbor) => {
           // @ts-expect-error ignore
-          const weight = Math.exp(-Math.abs(neighbor - center) * 5); // Edge-preserving weight
+          const weight = Math.exp(-Math.abs(neighbor - center) * 5);
           // @ts-expect-error ignore
           weightedSum += neighbor * weight;
           totalWeight += weight;
@@ -188,16 +173,14 @@ const removeBackgroundFromImage = async (
       }
     }
 
-    // Second pass: Apply sigmoid curve for better contrast
     for (let i = 0; i < W * H; i++) {
       const value = processedMask[i];
-      // Smooth sigmoid with adjustable threshold
+
       processedMask[i] = 1 / (1 + Math.exp(-12 * (value - 0.5)));
     }
 
     onProgress(90);
 
-    // Create result canvas with original image dimensions
     const resultCanvas = document.createElement("canvas");
     // @ts-expect-error ignore
     resultCanvas.width = image.naturalWidth;
@@ -205,13 +188,11 @@ const removeBackgroundFromImage = async (
     resultCanvas.height = image.naturalHeight;
     const resultCtx = resultCanvas.getContext("2d");
 
-    // Enable high-quality rendering
     // @ts-expect-error ignore
     resultCtx.imageSmoothingEnabled = true;
     // @ts-expect-error ignore
     resultCtx.imageSmoothingQuality = "high";
 
-    // Draw original image
     // @ts-expect-error ignore
     resultCtx.drawImage(image, 0, 0);
     // @ts-expect-error ignore
@@ -224,18 +205,15 @@ const removeBackgroundFromImage = async (
       image.naturalHeight,
     );
 
-    // Apply mask with bilinear interpolation for smoother scaling
     // @ts-expect-error ignore
     for (let y = 0; y < image.naturalHeight; y++) {
       // @ts-expect-error ignore
       for (let x = 0; x < image.naturalWidth; x++) {
-        // Map coordinates to mask space with sub-pixel accuracy
         // @ts-expect-error ignore
         const maskX = (x / image.naturalWidth) * (W - 1);
         // @ts-expect-error ignore
         const maskY = (y / image.naturalHeight) * (H - 1);
 
-        // Bilinear interpolation
         const x1 = Math.floor(maskX);
         const y1 = Math.floor(maskY);
         const x2 = Math.min(x1 + 1, W - 1);
@@ -244,18 +222,15 @@ const removeBackgroundFromImage = async (
         const dx = maskX - x1;
         const dy = maskY - y1;
 
-        // Get four corner values
-        const tl = processedMask[y1 * W + x1]; // top-left
-        const tr = processedMask[y1 * W + x2]; // top-right
-        const bl = processedMask[y2 * W + x1]; // bottom-left
-        const br = processedMask[y2 * W + x2]; // bottom-right
+        const tl = processedMask[y1 * W + x1];
+        const tr = processedMask[y1 * W + x2];
+        const bl = processedMask[y2 * W + x1];
+        const br = processedMask[y2 * W + x2];
 
-        // Interpolate
         const top = tl + (tr - tl) * dx;
         const bottom = bl + (br - bl) * dx;
         const alpha = top + (bottom - top) * dy;
 
-        // Apply alpha to image pixel
         // @ts-expect-error ignore
         const pixelIdx = (y * image.naturalWidth + x) * 4;
         imageData.data[pixelIdx + 3] = Math.round(
@@ -264,7 +239,6 @@ const removeBackgroundFromImage = async (
       }
     }
 
-    // Put processed image data back
     // @ts-expect-error ignore
     resultCtx.putImageData(imageData, 0, 0);
 
@@ -294,7 +268,6 @@ export default function Component({ dict }: { dict: dictType }) {
   const handleImageUpload = (event: { target: { files } }) => {
     const file = event.target.files[0];
     if (file) {
-      // Validate file type
       const validTypes = ["image/jpeg", "image/jpg", "image/png", "image/webp"];
       if (!validTypes.includes(file.type)) {
         // @ts-expect-error ignore
@@ -302,14 +275,12 @@ export default function Component({ dict }: { dict: dictType }) {
         return;
       }
 
-      // Validate file size (10MB limit)
       if (file.size > 10 * 1024 * 1024) {
         // @ts-expect-error ignore
         setError("Image size must be less than 10MB");
         return;
       }
 
-      // Clear any previous errors
       setError(null);
 
       const reader = new FileReader();
@@ -318,7 +289,6 @@ export default function Component({ dict }: { dict: dictType }) {
         setSelectedImage(e.target.result);
         setProcessedImage(null);
 
-        // Create image element for processing
         const img = new Image();
         img.onload = () => {
           // @ts-expect-error ignore
@@ -343,14 +313,12 @@ export default function Component({ dict }: { dict: dictType }) {
     setProcessingProgress(0);
 
     try {
-      // Pre-load model if not loaded
       if (!modelLoaded) {
         setProcessingProgress(5);
         await loadModel();
         setModelLoaded(true);
       }
 
-      // Process with progress callback
       const resultUrl = await removeBackgroundFromImage(
         selectedImageElement,
         (progress: React.SetStateAction<number>) =>
@@ -374,7 +342,6 @@ export default function Component({ dict }: { dict: dictType }) {
   const downloadImage = async () => {
     if (processedImage) {
       try {
-        // Create download link
         const link = document.createElement("a");
         link.download = `bg-removed-${Date.now()}.png`;
         link.href = processedImage;

@@ -1,0 +1,134 @@
+{
+  "seo": {
+    "title": "Odstrániť pozadie obrázkov zdarma",
+    "description": "Okamžite odstráňte obrazové pozadie s naším bezplatným nástrojom AI-poháňaným. Ideálne pre elektronický obchod, sociálne médiá a dizajn. Nie je potrebná registrácia. Snímky procesov v sekundách s výsledkami profesionálnej kvality.",
+    "keywords": "odstrániť pozadie, odstraňovač pozadia, odstránenie pozadia AI, transparentné pozadie, odstrániť pozadie bez obrazu, odstraňovač pozadia foto, online vymazávanie pozadia, fotografovanie produktov, fotografie v elektronickom obchode, vystrihnutie pozadia, nástroj na odstránenie pozadia, png transparentné, odstrániť bg online, pozadie editora fotografie, bez odstraňovača pozadia obrazu, automatické odstránenie pozadia, inteligentný odstraňovač pozadia, profesionálne odstránenie pozadia, hromadné odstránenie pozadia",
+    "codinasion": "Kodifikácia",
+    "og_title": "Free AI Pozadie odstraňovač - okamžite odstrániť pozadie obrázkov",
+    "og_description": "Profesionálne AI-poháňané odstránenie pozadia v priebehu niekoľkých sekúnd. Ideálne pre elektronický obchod, sociálne médiá a kreatívne projekty. 100% zadarmo a súkromie zameraný. Používajú 1M+ tvorcovia po celom svete."
+  },
+  "navbar": {
+    "text_1": "BG odstraňovač",
+    "text_2": "Vlastnosti",
+    "text_3": "Prípady použitia",
+    "text_4": "Preskúmanie",
+    "text_5": "Začnite"
+  },
+  "hero": {
+    "text_1": "Nástroj na odstránenie pozadia AI",
+    "text_2": "Odstrániť pozadie obrázkov Okamžite",
+    "text_3": "Profesionálne AI-poháňané odstránenie pozadia v priebehu niekoľkých sekúnd. Ideálne pre elektronický obchod, sociálne médiá a kreatívne projekty. Nie sú potrebné žiadne dizajnové zručnosti.",
+    "text_4": "Skúste teraz zadarmo"
+  },
+  "component": {
+    "text_1": "Odstrániť pozadia v 3 jednoduchých krokoch",
+    "text_2": "Nahrajte, spracujte a stiahnite si obrázok s prehľadným pozadím",
+    "text_3": "Odoslať obrázok",
+    "text_4": "Drag and drop or click to select",
+    "text_5": "Podporuje JPG, PNG, WebP (Max 10MB)",
+    "text_6": "Originál",
+    "text_7": "Spracované",
+    "text_8": "AI odstraňuje pozadie",
+    "text_9": "Kliknite na tlačidlo pre zobrazenie výsledku",
+    "text_10": "Odstrániť pozadie",
+    "text_11": "Stiahnuť PNG",
+    "text_12": "Spustiť Over",
+    "text_13": "Tipy na najlepšie výsledky",
+    "text_14": "Použiť obrázky s jasným protikladom subjekt-zadok",
+    "text_15": "Vyhnite sa veľmi malým alebo nízkym snímkam",
+    "text_16": "Dobre osvetlené fotografie fungujú lepšie ako tmavé obrázky",
+    "text_17": "Prvé spracovanie načíta model AI (~50MB)",
+    "text_18": "Spracovanie trvá 5-15 sekúnd v závislosti od zariadenia",
+    "text_19": "Prvé použitie: model AI stiahne automaticky (~50MB, iba raz). To je cena súkromia."
+  },
+  "bmc": {
+    "text_1": "Poháňať naše inovácie",
+    "text_2": "Miluješ tento nástroj? Podporte nás s virtuálnou kávou a pomôžte nám stále zlepšovať!",
+    "text_3": "Kúpiť kávu",
+    "text_4": "Ďakujeme za podporu open-source nástrojov!"
+  },
+  "features": {
+    "text_1": "Mocné vlastnosti pre dokonalé výsledky",
+    "text_2": "Pokročilá technológia AI spĺňa užívateľsky prívetivý dizajn na zabezpečenie profesionálne kvalitného odstránenia pozadia",
+    "text_3": "Blesk rýchly",
+    "text_4": "Procesné snímky za menej ako 3 sekundy s optimalizovanými algoritmami AI",
+    "text_5": "100% súkromné",
+    "text_6": "Vaše obrázky sa spracúvajú lokálne a nikdy nie sú uložené na našich serveroch",
+    "text_7": "Pracuje globálne",
+    "text_8": "Optimalizované pre všetky regióny s podporou viacerých jazykov čoskoro",
+    "text_9": "Vysoká kvalita",
+    "text_10": "Zachovať kvalitu obrazu s precíznou detekcia hrán a anti-aliasing",
+    "text_11": "Perfektná presnosť",
+    "text_12": "AI-poháňané hrany detekcia manipuluje zložité vlasy, kožušina, a jemné detaily",
+    "text_13": "Viacnásobné formáty",
+    "text_14": "Na stiahnutie v PNG, JPG alebo WebP s transparentným alebo farebným pozadím"
+  },
+  "use_cases": {
+    "text_1": "Ideálne pre každé použitie",
+    "text_2": "Od elektronického obchodu k sociálnym médiám zistite, ako náš nástroj mení pracovné postupy",
+    "text_3": "Elektronický obchod",
+    "text_4": "Fotografie z čistých produktov pre internetové obchody",
+    "text_5": "Fotografovanie",
+    "text_6": "Profesionálna úprava portrétov",
+    "text_7": "Sociálne médiá",
+    "text_8": "Zaujímavé príspevky a príbehy",
+    "text_9": "Marketing",
+    "text_10": "Majetok profesijnej kampane"
+  },
+  "fun_facts": {
+    "text_1": "Úžasné čísla",
+    "text_2": "Pozri, aký dopad máme na celom svete.",
+    "text_3": "Spracované obrázky",
+    "text_4": "Podávané krajiny",
+    "text_5": "Miera presnosti",
+    "text_6": "Priemerný čas procesu"
+  },
+  "historical_context": {
+    "text_1": "Vývoj odstraňovania pozadia",
+    "text_2": "Od hodín manuálnej práce až po okamžité výsledky AI",
+    "text_3": "Ručný fotoshop Era",
+    "text_4": "Dizajnéri strávili hodiny manuálnym výberom a odstránením pozadia pomocou komplexných nástrojov",
+    "text_5": "Poloautomatické Nástroje",
+    "text_6": "Magic prútik a podobné nástroje urobili proces rýchlejším, ale stále vyžaduje odborné znalosti",
+    "text_7": "UI revolúcia",
+    "text_8": "Algoritmusy hlbokého učenia môžu okamžite odstrániť pozadie s nadľudskou presnosťou"
+  },
+  "testimonials": {
+    "text_1": "Milovaní Stvoriteľmi na celom svete",
+    "text_2": "Pozrite sa, čo hovoria naši používatelia",
+    "text_3": "Sarah Chen",
+    "text_4": "Vlastník elektronického obchodu",
+    "text_5": "Tento nástroj mi zachránil stovky hodín! Moje produktové fotografie vyzerajú profesionálne a môj predaj sa zvýšil o 40%.",
+    "text_6": "Marco Rodriguez",
+    "text_7": "Správca sociálnych médií",
+    "text_8": "Kvalita je neuveriteľná a je taká rýchla. Môžem vytvoriť pútavé príspevky v minútach namiesto hodín.",
+    "text_9": "Aisha Patel",
+    "text_10": "Dizajnér na voľnej nohe",
+    "text_11": "Ako niekto, kto pracuje s medzinárodnými klientmi, tento nástroj je hra-zmena. Perfektné výsledky zakaždým!"
+  },
+  "cta": {
+    "text_1": "Pripravený odstrániť pozadie ako profík?",
+    "text_2": "Pripojte sa k viac ako 1 miliónu užívateľov, ktorí dôverujú nášmu nástroju na odstránenie pozadia pomocou AI",
+    "text_3": "Spustiť odstránenie pozadia"
+  },
+  "sponsor": {
+    "text_1": "Staňte sa naším výhradným sponzorom",
+    "text_2": "Získajte trvalé značky na našom nástroji používa milióny po celom svete",
+    "text_3": "Iba 100 dolárov.",
+    "text_4": "Celoživotné sponzorstvo",
+    "text_5": "Obmedzené na 1 sponzora",
+    "text_6": "Čo dostanete",
+    "text_7": "Zobrazené logo",
+    "text_8": "Odkaz na vaše webové stránky",
+    "text_9": "Spomenuté v sociálnych médiách",
+    "text_10": "Záruka na večné umiestnenie",
+    "text_11": "Perfektné pre",
+    "text_12": "SaaS spoločnosti zamerané na tvorivé subjekty",
+    "text_13": "Konštrukčné nástroje a služby",
+    "text_14": "Fotografovanie",
+    "text_15": "Platformy elektronického obchodu",
+    "text_16": "Sponzorovanie tvrdení",
+    "text_17": "Dosiahnuť 1M+ mesačných užívateľov",
+    "text_18": "Prvý príde, prvý slúžil"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "seo": {
+    "title": "Quitar fondo de imagen Gratis Silenciosa herramienta de eliminación de fondo de AI",
+    "description": "Eliminar los fondos de imagen al instante con nuestra herramienta de IA libre. Perfecto para comercio electrónico, redes sociales y diseño. No se requiere registro. Procesar imágenes en segundos con resultados de calidad profesional.",
+    "keywords": "eliminar fondo, remover fondo, eliminar fondo de IA, fondo transparente, eliminar fondo de imagen gratis, quitar foto fondo, borrador de fondo en línea, fotografía de producto, fotos de comercio electrónico, cortar fondo, herramienta de eliminación de fondo, png transparente, eliminar bg en línea, fondo de foto editor, quitar de fondo de imagen gratis, extracción de fondo de auto, removedor de fondo profesional, extracción de fondo a granel",
+    "codinasion": "Codinasión",
+    "og_title": "Free AI Background Remover - Remove Image Backgrounds Instantly ← BG Remover",
+    "og_description": "Extracción profesional de fondo impulsada por IA en segundos. Perfecto para comercio electrónico, redes sociales y proyectos creativos. 100% libre y centrado en la privacidad. Utilizado por creadores de 1M+ en todo el mundo."
+  },
+  "navbar": {
+    "text_1": "BG Remover",
+    "text_2": "Características",
+    "text_3": "Casos de uso",
+    "text_4": "Reseñas",
+    "text_5": "Empieza."
+  },
+  "hero": {
+    "text_1": "Herramienta de eliminación de antecedentes AI",
+    "text_2": "Eliminar los fondos de imagen Instantáneamente",
+    "text_3": "Extracción profesional de fondo impulsada por IA en segundos. Perfecto para comercio electrónico, redes sociales y proyectos creativos. No se requieren habilidades de diseño.",
+    "text_4": "Pruebe gratis ahora"
+  },
+  "component": {
+    "text_1": "Eliminar fondos en 3 sencillos pasos",
+    "text_2": "Subir, procesar y descargar su imagen con fondo transparente",
+    "text_3": "Subir su imagen",
+    "text_4": "Arrastre y suelte o haga clic para seleccionar",
+    "text_5": "Supports JPG, PNG, WebP (Max 10MB)",
+    "text_6": "Original",
+    "text_7": "Procesado",
+    "text_8": "AI está sacando fondo",
+    "text_9": "Haga clic en el proceso para ver el resultado",
+    "text_10": "Remove Antecedentes",
+    "text_11": "Descargar PNG",
+    "text_12": "Inicio",
+    "text_13": "Consejos para los mejores resultados",
+    "text_14": "Use imágenes con claro contraste subterráneo",
+    "text_15": "Evite imágenes muy pequeñas o de baja resolución",
+    "text_16": "Las fotos bien iluminadas funcionan mejor que las imágenes oscuras",
+    "text_17": "El procesamiento por primera vez carga el modelo AI (~50MB)",
+    "text_18": "Procesamiento tarda 5-15 segundos dependiendo del dispositivo",
+    "text_19": "Primer uso: el modelo AI se descargará automáticamente (~50MB, solo una vez). Ese es el costo de Privacidad."
+  },
+  "bmc": {
+    "text_1": "Fuel Nuestra innovación",
+    "text_2": "¿Te encanta esta herramienta? Contáctanos con un café virtual y ayúdenos a seguir mejorando!",
+    "text_3": "Comprar café",
+    "text_4": "¡Gracias por apoyar herramientas de código abierto!"
+  },
+  "features": {
+    "text_1": "Características poderosas para los resultados perfectos",
+    "text_2": "Advanced AI technology meets user-friendly design to deliver professional-quality background removal",
+    "text_3": "Relámpago rápido",
+    "text_4": "Procesar imágenes en menos de 3 segundos con nuestros algoritmos de IA optimizados",
+    "text_5": "100% privada",
+    "text_6": "Sus imágenes se procesan localmente y nunca se almacenan en nuestros servidores",
+    "text_7": "Obras Globalmente",
+    "text_8": "Optimizado para todas las regiones con soporte multilingüe pronto",
+    "text_9": "Alta Calidad",
+    "text_10": "Calidad de imagen Preserve con detección precisa de bordes y antialiasing",
+    "text_11": "Precisión perfecta",
+    "text_12": "La detección de bordes accionados por AI maneja pelo complejo, piel y detalles finos",
+    "text_13": "Formatos múltiples",
+    "text_14": "Descarga en PNG, JPG o WebP con fondos transparentes o de color"
+  },
+  "use_cases": {
+    "text_1": "Perfecto para cada caso de uso",
+    "text_2": "Desde el comercio electrónico a las redes sociales, vea cómo nuestra herramienta transforma los flujos de trabajo",
+    "text_3": "Comercio electrónico",
+    "text_4": "Limpiar fotos de productos para tiendas en línea",
+    "text_5": "Fotografía",
+    "text_6": "Edición de retrato profesional",
+    "text_7": "Social Media",
+    "text_8": "Entradas e historias llamativas",
+    "text_9": "Marketing",
+    "text_10": "Activos de campaña profesionales"
+  },
+  "fun_facts": {
+    "text_1": "Números asombrosos",
+    "text_2": "Vea el impacto que estamos haciendo en todo el mundo",
+    "text_3": "Imágenes procesadas",
+    "text_4": "Países que prestan servicios",
+    "text_5": "Tasa de precisión",
+    "text_6": "Tiempo promedio del proceso"
+  },
+  "historical_context": {
+    "text_1": "La evolución de la eliminación de fondo",
+    "text_2": "De horas de trabajo manual a resultados instantáneos impulsados por IA",
+    "text_3": "Manual de Photoshop Era",
+    "text_4": "Diseñadores pasaron horas seleccionando manualmente y eliminando fondos usando herramientas complejas",
+    "text_5": "Semi-Automatic Herramientas",
+    "text_6": "La varita mágica y herramientas similares hicieron que el proceso fuera más rápido pero aún necesario experiencia",
+    "text_7": "AI Revolution",
+    "text_8": "Los algoritmos de aprendizaje profundo ahora pueden eliminar fondos instantáneamente con precisión sobrehumana"
+  },
+  "testimonials": {
+    "text_1": "Loved by Creators Worldwide",
+    "text_2": "Vea lo que dicen nuestros usuarios",
+    "text_3": "Sarah Chen",
+    "text_4": "E-commerce Owner",
+    "text_5": "¡Esta herramienta me salvó cientos de horas! Mis fotos de producto parecen profesionales y mis ventas han aumentado un 40%.",
+    "text_6": "Marco Rodríguez",
+    "text_7": "Social Media Manager",
+    "text_8": "La calidad es increíble y es tan rápido. Puedo crear puestos atractivos en minutos en vez de horas.",
+    "text_9": "Aisha Patel",
+    "text_10": "Diseñador independiente",
+    "text_11": "Como alguien que trabaja con clientes internacionales, esta herramienta es un cambiador de juego. ¡Resultados perfectos cada vez!"
+  },
+  "cta": {
+    "text_1": "¿Listo para quitar fondos como un Pro?",
+    "text_2": "Únase a más de 1 millón de usuarios que confían en nuestra herramienta de eliminación de antecedentes impulsada por AI",
+    "text_3": "Iniciar la extracción de fondos"
+  },
+  "sponsor": {
+    "text_1": "Conviértete en nuestro patrocinador exclusivo",
+    "text_2": "Obtener marcación permanente en nuestra herramienta utilizada por millones en todo el mundo",
+    "text_3": "Sólo $100",
+    "text_4": "Patrocinio de Vida",
+    "text_5": "Limitado a 1 patrocinador",
+    "text_6": "Lo que tienes",
+    "text_7": "Su logotipo se muestra prominente",
+    "text_8": "Enlace a su sitio web",
+    "text_9": "Mencionado en redes sociales",
+    "text_10": "Garantía de colocación para siempre",
+    "text_11": "Perfecto para",
+    "text_12": "SaaS empresas orientadas a creativos",
+    "text_13": "Herramientas y servicios de diseño",
+    "text_14": "Empresas de fotografía",
+    "text_15": "Plataformas de comercio electrónico",
+    "text_16": "Patrocinio de las reclamaciones",
+    "text_17": "Alcance usuarios mensuales 1M+",
+    "text_18": "Primero viene, primero servido"
+  }
+}

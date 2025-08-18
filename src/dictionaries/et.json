@@ -1,0 +1,134 @@
+{
+  "seo": {
+    "title": "Eemalda pilditaust vaba | AI taustaeemaldaja tööriist | BG eemaldaja",
+    "description": "Eemaldage pildi taustad koheselt meie tasuta AI-toega tööriistaga. Ideaalne e-kaubanduse, sotsiaalmeedia ja disaini jaoks. Registreerumine pole vajalik. Töötle pilte sekundites professionaalse kvaliteediga tulemusi.",
+    "keywords": "eemaldada taust, taustaeemaldaja, AI tausta eemaldamine, läbipaistev taust, eemaldada pilditaust, fototaust eemaldaja, online tausta kustutaja, tootefotograafia, e-kaubanduse fotod, lõigatud taust, tausta eemaldamise tööriist, png läbipaistev, eemaldada bg võrgus, fotoredaktori taust, pildi tausta eemaldaja tasuta, automaatne tausta eemaldamine, nutikas tausta eemaldaja, professionaalne tausta eemaldamine, lahtine tausta eemaldamine",
+    "codinasion": "Kodinatsiooni",
+    "og_title": "Vaba AI taustaeemaldaja - eemalda pildi tausta koheselt | BG eemaldaja",
+    "og_description": "Professionaalne AI-toega tausta eemaldamine sekunditega. Ideaalne e-kaubanduse, sotsiaalmeedia ja loominguliste projektide jaoks. 100% tasuta ja privaatsusele keskendunud. Kasutatud 1M+ loojate poolt üle maailma."
+  },
+  "navbar": {
+    "text_1": "BG eemaldaja",
+    "text_2": "Omadused",
+    "text_3": "Kasuta kastid",
+    "text_4": "Arvustused",
+    "text_5": "Alusta"
+  },
+  "hero": {
+    "text_1": "AI taustaeemaldaja tööriist",
+    "text_2": "Pildi tausta eemaldamine Koheselt",
+    "text_3": "Professionaalne AI-toega tausta eemaldamine sekunditega. Ideaalne e-kaubanduse, sotsiaalmeedia ja loominguliste projektide jaoks. Disainioskusi ei nõuta.",
+    "text_4": "Proovi nüüd vabaks."
+  },
+  "component": {
+    "text_1": "Eemalda taustad 3 lihtsa sammuga",
+    "text_2": "Laadige üles, töötlege ja laadige pilt alla läbipaistva taustaga",
+    "text_3": "Pildi üleslaadimine",
+    "text_4": "Lohista ja kukuta või klõpsa valikul",
+    "text_5": "Toetab JPG, PNG, WebP (Max 10MB)",
+    "text_6": "Originaal",
+    "text_7": "Töödeldud",
+    "text_8": "AI eemaldab tausta",
+    "text_9": "Klõpsa protsessil tulemuse nägemiseks",
+    "text_10": "Eemalda taust",
+    "text_11": "PNG allalaadimine",
+    "text_12": "Alusta",
+    "text_13": "Parimate tulemuste näpunäited",
+    "text_14": "Selge subjekti tausta kontrastiga piltide kasutamine",
+    "text_15": "Väldi väga väikeseid või madala resolutsiooniga pilte",
+    "text_16": "Hästi valgustatud fotod töötavad paremini kui tumedad pildid",
+    "text_17": "Esmakordne töötlemine koormab AI mudelit (~50 MB)",
+    "text_18": "Töötlemine võtab sõltuvalt seadmest aega 5-15 sekundit",
+    "text_19": "Esmakordne kasutamine: AI mudel laaditakse automaatselt alla (~50 MB, ainult üks kord). See on privaatsuse hind."
+  },
+  "bmc": {
+    "text_1": "Kütta meie innovatsiooni",
+    "text_2": "Armastan seda tööriista? Toeta meid virtuaalse kohviga ja aita meil edasi areneda!",
+    "text_3": "Osta kohvi",
+    "text_4": "Täname avatud lähtekoodiga tööriistade toetamise eest!"
+  },
+  "features": {
+    "text_1": "Võimsad omadused täiuslike tulemuste saavutamiseks",
+    "text_2": "Täiustatud AI-tehnoloogia vastab kasutajasõbralikule disainile, et pakkuda professionaalse kvaliteediga tausta eemaldamist",
+    "text_3": "Välkkiire",
+    "text_4": "Töötle pilte vähem kui 3 sekundiga meie optimeeritud AI algoritmidega",
+    "text_5": "100% privaat",
+    "text_6": "Teie pilte töödeldakse kohapeal ja neid ei salvestata kunagi meie serveritesse.",
+    "text_7": "Töötab globaalselt",
+    "text_8": "Optimeeritud kõigile piirkondadele, kus on varsti mitmekeelne tugi",
+    "text_9": "Kvaliteetne",
+    "text_10": "Pildi kvaliteedi säilitamine täpse servatuvastuse ja antialiase abil",
+    "text_11": "Täiuslik täpsus",
+    "text_12": "AI-toega servatuvastus tegeleb keerukate juuste, karusnaha ja peente detailidega",
+    "text_13": "Mitu vormingut",
+    "text_14": "PNG, JPG või WebP allalaadimine läbipaistva või värvilise taustaga"
+  },
+  "use_cases": {
+    "text_1": "Ideaalne iga kasutusjuhtumi jaoks",
+    "text_2": "E-kaubandusest sotsiaalmeediani vaata, kuidas meie tööriist töövooge muudab",
+    "text_3": "E-kaubandus",
+    "text_4": "Puhtad tootefotod veebikauplustes",
+    "text_5": "Fotograafia",
+    "text_6": "Professionaalne portreetöötlus",
+    "text_7": "Sotsiaalmeedia",
+    "text_8": "Pilkupüüdvad postitused ja lood",
+    "text_9": "Turundus",
+    "text_10": "Professionaalsed kampaaniavahendid"
+  },
+  "fun_facts": {
+    "text_1": "Hämmastavad numbrid",
+    "text_2": "Vaadake mõju, mida me kogu maailmas teeme",
+    "text_3": "Töödeldud pildid",
+    "text_4": "Riigid, kus teenindati",
+    "text_5": "Täpsusmäär",
+    "text_6": "Keskmine protsessiaeg"
+  },
+  "historical_context": {
+    "text_1": "Tausta eemaldamise areng",
+    "text_2": "Alates käsitsitöö tundidest kuni AI-ga töötavate hetketulemusteni",
+    "text_3": "Käsitsi Photoshop Era",
+    "text_4": "Disainerid veetsid tunde käsitsi tausta valimisel ja eemaldamisel keerukate tööriistade abil",
+    "text_5": "Poolautomaatne Tööriistad",
+    "text_6": "Võlukepp ja sarnased tööriistad tegid protsessi kiiremaks, kuid vajasid siiski asjatundlikkust",
+    "text_7": "AI revolutsioon",
+    "text_8": "Sügava õppimise algoritmid saavad nüüd taustad koheselt eemaldada üliinimliku täpsusega"
+  },
+  "testimonials": {
+    "text_1": "Armastatud loojate poolt üle maailma",
+    "text_2": "Vaata, mida meie kasutajad räägivad",
+    "text_3": "Sarah Chen",
+    "text_4": "E-kaubanduse omanik",
+    "text_5": "See tööriist päästis mind sadu tunde! Minu tootefotod näevad välja professionaalsed ja minu müük on kasvanud 40%.",
+    "text_6": "Marco Rodriguez",
+    "text_7": "Sotsiaalmeedia haldur",
+    "text_8": "Kvaliteet on uskumatu ja see on nii kiire. Ma saan luua huvitavaid postitusi tundide asemel minutitega.",
+    "text_9": "Aisha Patel",
+    "text_10": "Vabakutseline disainer",
+    "text_11": "Nagu keegi, kes töötab rahvusvaheliste klientidega, on see tööriist mängu muutja. Ideaalsed tulemused iga kord!"
+  },
+  "cta": {
+    "text_1": "Kas olete valmis eemaldama tausta nagu Pro?",
+    "text_2": "Liituge üle 1 miljoni kasutajaga, kes usaldavad meie AI-toega tausta eemaldamise tööriista",
+    "text_3": "Alusta tausta eemaldamist"
+  },
+  "sponsor": {
+    "text_1": "Hakka meie eksklusiivseks sponsoriks",
+    "text_2": "Hankige püsiv kaubamärk meie tööriistale, mida kasutavad miljonid inimesed kogu maailmas",
+    "text_3": "Ainult 100 dollarit",
+    "text_4": "Eluaegne sponsorlus",
+    "text_5": "Piiratud 1 sponsoriga",
+    "text_6": "Mida sa saad",
+    "text_7": "Sinu logo on nähtaval kohal",
+    "text_8": "Link teie veebisaidile",
+    "text_9": "Mainitud sotsiaalmeedias",
+    "text_10": "Paigutamise garantii",
+    "text_11": "Ideaalne",
+    "text_12": "SaaS-i ettevõtted, mis on suunatud reklaamidele",
+    "text_13": "Projekteerimisvahendid ja -teenused",
+    "text_14": "Fotograafiaettevõtted",
+    "text_15": "E-kaubanduse platvormid",
+    "text_16": "Nõude sponsorlus",
+    "text_17": "Jõuda 1M+ igakuiste kasutajateni",
+    "text_18": "Esimene tulek, esimene teenimine"
+  }
+}

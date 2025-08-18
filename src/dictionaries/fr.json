@@ -1,0 +1,134 @@
+{
+  "seo": {
+    "title": "Supprimer l'image de fond Enlever l'outil de suppression de fond AI",
+    "description": "Supprimez instantanément les arrière-plans d'image avec notre outil gratuit alimenté par l'IA. Parfait pour le commerce électronique, les médias sociaux et le design. Aucune inscription requise. Traitez les images en quelques secondes avec des résultats de qualité professionnelle.",
+    "keywords": "enlever le fond, l'arrière-plan, l'arrière-plan d'IA, l'arrière-plan transparent, enlever l'image libre, l'arrière-plan d'image, l'arrière-plan d'image en ligne, l'effaceur de produit, photos de commerce électronique, découper l'arrière-plan, outil de suppression de l'arrière-plan, png transparent, supprimer bg en ligne, arrière-plan de l'éditeur de photo, l'arrière-plan d'image libre, enlèvement automatique de l'arrière-plan, l'arrière-plan intelligent, l'arrière-plan professionnel, enlèvement de l'arrière-plan en vrac",
+    "codinasion": "Codinasion",
+    "og_title": "Retireur de fond d'IA gratuit - supprimer les arrière-plans d'image instantanément",
+    "og_description": "Retrait professionnel de l'arrière-plan alimenté par l'IA en quelques secondes. Parfait pour le commerce électronique, les médias sociaux et les projets créatifs. 100% gratuit et axé sur la vie privée. Utilisé par 1M+ dans le monde entier."
+  },
+  "navbar": {
+    "text_1": "Supprimer BG",
+    "text_2": "Caractéristiques",
+    "text_3": "Cas d'utilisation",
+    "text_4": "Examens",
+    "text_5": "Commencez"
+  },
+  "hero": {
+    "text_1": "Outil de suppression de fond AI",
+    "text_2": "Supprimer les arrière-plans de l'image Immédiatement",
+    "text_3": "Retrait professionnel de l'arrière-plan alimenté par l'IA en quelques secondes. Parfait pour le commerce électronique, les médias sociaux et les projets créatifs. Aucune compétence de conception requise.",
+    "text_4": "Essayez gratuitement maintenant"
+  },
+  "component": {
+    "text_1": "Supprimer les arrière-plans en 3 étapes simples",
+    "text_2": "Télécharger, traiter et télécharger votre image avec un fond transparent",
+    "text_3": "Télécharger votre image",
+    "text_4": "Faites glisser et déposez ou cliquez pour sélectionner",
+    "text_5": "Prend en charge JPG, PNG, WebP (max 10MB)",
+    "text_6": "Original: ANGLAIS",
+    "text_7": "Traitement",
+    "text_8": "L'IA supprime le fond",
+    "text_9": "Cliquez sur le processus pour voir le résultat",
+    "text_10": "Supprimer l' arrière-plan",
+    "text_11": "Télécharger PNG",
+    "text_12": "Démarrage",
+    "text_13": "Conseils pour les meilleurs résultats",
+    "text_14": "Utiliser des images avec un contraste objet-arrière-plan clair",
+    "text_15": "Évitez les images en très petite ou basse résolution",
+    "text_16": "Les photos bien éclairées fonctionnent mieux que les images sombres",
+    "text_17": "Le premier traitement charge le modèle AI (~50 Mo)",
+    "text_18": "Traitement dure 5-15 secondes selon l'appareil",
+    "text_19": "Première utilisation : le modèle AI sera téléchargé automatiquement (~50 Mo, une seule fois). C'est le coût de la vie privée."
+  },
+  "bmc": {
+    "text_1": "Nos innovations",
+    "text_2": "Vous aimez cet outil ? Soutenez-nous avec un café virtuel et aidez-nous à nous améliorer!",
+    "text_3": "Acheter du café",
+    "text_4": "Merci de soutenir les outils open-source!"
+  },
+  "features": {
+    "text_1": "Caractéristiques puissantes pour des résultats parfaits",
+    "text_2": "La technologie avancée de l'IA répond à une conception conviviale pour assurer l'élimination des arrière-plans de qualité professionnelle",
+    "text_3": "Éclair rapide",
+    "text_4": "Traitement des images en moins de 3 secondes avec nos algorithmes optimisés d'IA",
+    "text_5": "100% Privé",
+    "text_6": "Vos images sont traitées localement et ne sont jamais stockées sur nos serveurs",
+    "text_7": "Fonctionne à l'échelle mondiale",
+    "text_8": "Optimisé pour toutes les régions avec un soutien multilingue à venir",
+    "text_9": "Haute qualité",
+    "text_10": "Préserver la qualité de l'image avec une détection précise des bords et un anti-aliasing",
+    "text_11": "Précision parfaite",
+    "text_12": "Poignées de détection des bords de l'IA, cheveux complexes, fourrures et détails fins",
+    "text_13": "Formats multiples",
+    "text_14": "Télécharger en PNG, JPG ou WebP avec des fonds transparents ou colorés"
+  },
+  "use_cases": {
+    "text_1": "Parfait pour chaque cas d'utilisation",
+    "text_2": "Du commerce électronique aux médias sociaux, voyez comment notre outil transforme les flux de travail",
+    "text_3": "Commerce électronique",
+    "text_4": "Photos de produits propres pour les magasins en ligne",
+    "text_5": "Photographie",
+    "text_6": "Edition de portraits professionnels",
+    "text_7": "Médias sociaux",
+    "text_8": "Articles et histoires captivants",
+    "text_9": "Commercialisation",
+    "text_10": "Matériel de campagne professionnelle"
+  },
+  "fun_facts": {
+    "text_1": "Nombres incroyables",
+    "text_2": "Voyez l'impact que nous faisons dans le monde entier",
+    "text_3": "Images traitées",
+    "text_4": "Pays desservis",
+    "text_5": "Taux d'exactitude",
+    "text_6": "Temps moyen de traitement"
+  },
+  "historical_context": {
+    "text_1": "L'évolution de la suppression des antécédents",
+    "text_2": "Des heures de travail manuel aux résultats instantanés alimentés par l'IA",
+    "text_3": "Photoshop manuel Heure",
+    "text_4": "Les concepteurs ont passé des heures à sélectionner et supprimer manuellement les arrière-plans en utilisant des outils complexes",
+    "text_5": "semi-automatique Outils",
+    "text_6": "La baguette magique et les outils similaires ont rendu le processus plus rapide mais toujours nécessaire expertise",
+    "text_7": "Révolution AI",
+    "text_8": "Les algorithmes d'apprentissage profond peuvent maintenant supprimer instantanément les fonds avec une précision surhumaine"
+  },
+  "testimonials": {
+    "text_1": "Aimé par les Créateurs dans le monde entier",
+    "text_2": "Voyez ce que nos utilisateurs disent",
+    "text_3": "Sarah Chen",
+    "text_4": "Propriétaire du commerce électronique",
+    "text_5": "Cet outil m'a sauvé des centaines d'heures ! Mes photos de produit semblent professionnelles et mes ventes ont augmenté de 40%.",
+    "text_6": "Marco Rodriguez",
+    "text_7": "Gestionnaire des médias sociaux",
+    "text_8": "La qualité est incroyable et c'est si rapide. Je peux créer des postes engageants en quelques minutes au lieu d'heures.",
+    "text_9": "Aisha Patel",
+    "text_10": "Créateur de freelance",
+    "text_11": "Comme quelqu'un qui travaille avec des clients internationaux, cet outil est un changement de jeu. Des résultats parfaits à chaque fois !"
+  },
+  "cta": {
+    "text_1": "Prêt à supprimer les arrière-plans comme un pro?",
+    "text_2": "Rejoignez plus d'un million d'utilisateurs qui font confiance à notre outil de suppression de fond alimenté par l'IA",
+    "text_3": "Démarrer la suppression des arrière-plans"
+  },
+  "sponsor": {
+    "text_1": "Devenez notre commanditaire exclusif",
+    "text_2": "Obtenez une marque permanente sur notre outil utilisé par des millions de personnes dans le monde",
+    "text_3": "Seulement 100 $",
+    "text_4": "Parrainage à vie",
+    "text_5": "Limité à 1 parrain",
+    "text_6": "Ce que vous obtenez",
+    "text_7": "Votre logo bien en vue",
+    "text_8": "Lien vers votre site Web",
+    "text_9": "Mentionnée dans les médias sociaux",
+    "text_10": "Garantie de placement pour toujours",
+    "text_11": "Parfait pour",
+    "text_12": "Entreprises SaaS ciblant les créateurs",
+    "text_13": "Outils et services de conception",
+    "text_14": "Entreprises de photographie",
+    "text_15": "Plateformes de commerce électronique",
+    "text_16": "Demande de parrainage",
+    "text_17": "Atteindre les utilisateurs mensuels 1M+",
+    "text_18": "Premier arrivé, premier servi"
+  }
+}

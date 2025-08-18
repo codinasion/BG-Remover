@@ -3,8 +3,10 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import "@/app/globals.css";
 import {
+  defaultLang,
   dictType,
   getDictionary,
+  langListData,
   langType,
   rtlLanguages,
 } from "@/dictionaries";
@@ -27,6 +29,8 @@ export async function generateMetadata({
   const { lang } = await params;
   const dict: dictType = await getDictionary(lang);
 
+  const baseUrl = "https://bg-remover.codinasion.com";
+
   return {
     title: dict.seo.title,
     description: dict.seo.description,
@@ -34,7 +38,15 @@ export async function generateMetadata({
     authors: [{ name: dict.seo.codinasion, url: "https://www.codinasion.com" }],
     creator: dict.seo.codinasion,
     publisher: dict.seo.codinasion,
-    metadataBase: new URL("https://bg-remover.codinasion.com"),
+    metadataBase: new URL(baseUrl),
+    alternates: {
+      canonical: `${baseUrl}/${defaultLang}/`,
+      languages: Object.fromEntries(
+        langListData
+          .filter((lang) => lang !== defaultLang)
+          .map((lang) => [lang, `${baseUrl}/${lang}/`]),
+      ),
+    },
     openGraph: {
       type: "website",
       locale: "en_US",
