@@ -1,3 +1,5 @@
+export const defaultLang = "en";
+
 const langListData = [
   "ar",
   "az",
