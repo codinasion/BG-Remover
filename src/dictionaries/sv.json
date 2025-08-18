@@ -1,0 +1,134 @@
+{
+  "seo": {
+    "title": "Ta bort bildbakgrund gratis | AI Background Remover Tool | BG Remover",
+    "description": "Ta bort bildbakgrunder direkt med vårt gratis AI-drivna verktyg. Perfekt för e-handel, sociala medier och design. Ingen registrering krävs. Bearbeta bilder på några sekunder med professionella kvalitetsresultat.",
+    "keywords": "avlägsna bakgrund, bakgrundsborttagare, AI bakgrundsborttagning, transparent bakgrund, ta bort bild bakgrundsfri, foto bakgrundsborttagare, online bakgrundsserver, produktfotografering, e-handelsfoton, skära ut bakgrund, bakgrundsborttagningsverktyg, png transparent, ta bort bg online, fotoredigerare bakgrund, bild bakgrundsborttagare fri, automatisk bakgrundsborttagning, smart bakgrundsborttagning, bulk bakgrund avlägsnande",
+    "codinasion": "Kodinasion",
+    "og_title": "Gratis AI Background Remover - Ta bort bildbakgrund direkt | BG Remover",
+    "og_description": "Professionell AI-drivna bakgrundsborttagning på några sekunder. Perfekt för e-handel, sociala medier och kreativa projekt. 100% gratis och integritetsfokuserad. Används av 1M+ skapare över hela världen."
+  },
+  "navbar": {
+    "text_1": "BG Remover",
+    "text_2": "funktioner",
+    "text_3": "Använda fall",
+    "text_4": "Recensioner",
+    "text_5": "Kom igång"
+  },
+  "hero": {
+    "text_1": "AI Background Remover Tool",
+    "text_2": "Ta bort bild bakgrunder Omedelbart",
+    "text_3": "Professionell AI-drivna bakgrundsborttagning på några sekunder. Perfekt för e-handel, sociala medier och kreativa projekt. Inga designfärdigheter krävs.",
+    "text_4": "Prova gratis nu"
+  },
+  "component": {
+    "text_1": "Ta bort bakgrunder i 3 enkla steg",
+    "text_2": "Ladda upp, bearbeta och ladda ner din bild med transparent bakgrund",
+    "text_3": "Ladda upp din bild",
+    "text_4": "Dra och släpp eller klicka för att välja",
+    "text_5": "Stöder JPG, PNG, WebP (Max 10MB)",
+    "text_6": "Ursprunglig original",
+    "text_7": "Bearbetad",
+    "text_8": "AI tar bort bakgrund",
+    "text_9": "Klicka process för att se resultat",
+    "text_10": "Ta bort bakgrund",
+    "text_11": "Ladda ner PNG",
+    "text_12": "Börja över",
+    "text_13": "Tips för bästa resultat",
+    "text_14": "Använd bilder med tydlig sub-background kontrast",
+    "text_15": "Undvik mycket små eller lågupplösta bilder",
+    "text_16": "Väl upplysta bilder fungerar bättre än mörka bilder",
+    "text_17": "Första gången bearbetning laddar AI-modellen (~50MB)",
+    "text_18": "Bearbetning tar 5-15 sekunder beroende på enhet",
+    "text_19": "Första användningen: AI-modellen laddas ner automatiskt (~50MB, endast engångstid). Det är kostnaden för integritet."
+  },
+  "bmc": {
+    "text_1": "Bränsle vår innovation",
+    "text_2": "Älskar detta verktyg? Stöd oss med ett virtuellt kaffe och hjälp oss att fortsätta förbättra!",
+    "text_3": "Köp kaffe",
+    "text_4": "Tack för att du stöder open-source-verktyg!"
+  },
+  "features": {
+    "text_1": "Kraftfulla funktioner för perfekta resultat",
+    "text_2": "Avancerad AI-teknik möter användarvänlig design för att leverera professionell bakgrund borttagning",
+    "text_3": "Lightning Fast",
+    "text_4": "Processbilder på under 3 sekunder med våra optimerade AI-algoritmer",
+    "text_5": "100% Privat",
+    "text_6": "Dina bilder behandlas lokalt och lagras aldrig på våra servrar",
+    "text_7": "Arbetar globalt",
+    "text_8": "Optimerad för alla regioner med flerspråkigt stöd som kommer snart",
+    "text_9": "Hög kvalitet",
+    "text_10": "Bevara bildkvaliteten med exakt kantdetektering och anti-aliasing",
+    "text_11": "Perfekt precision",
+    "text_12": "AI-drivna kantdetektering hanterar komplext hår, päls och fina detaljer",
+    "text_13": "Flera format",
+    "text_14": "Ladda ner i PNG, JPG eller WebP med transparent eller färgad bakgrund"
+  },
+  "use_cases": {
+    "text_1": "Perfekt för varje användningsfall",
+    "text_2": "Från e-handel till sociala medier, se hur vårt verktyg omvandlar arbetsflöden",
+    "text_3": "E-handel",
+    "text_4": "Rena produktfoton för onlinebutiker",
+    "text_5": "Fotografering",
+    "text_6": "Professionell porträttredigering",
+    "text_7": "Sociala medier",
+    "text_8": "Eye-catching inlägg och berättelser",
+    "text_9": "Marketing",
+    "text_10": "Professionella kampanjtillgångar"
+  },
+  "fun_facts": {
+    "text_1": "Fantastiska siffror",
+    "text_2": "Se den påverkan vi gör över hela världen",
+    "text_3": "Bilder bearbetade",
+    "text_4": "Länder tjänade",
+    "text_5": "Noggrannhetsgrad",
+    "text_6": "Genomsnittlig processtid"
+  },
+  "historical_context": {
+    "text_1": "Evolutionen av Background Removal",
+    "text_2": "Från timmar av manuellt arbete till omedelbara AI-drivna resultat",
+    "text_3": "Manuell Photoshop Era",
+    "text_4": "Designers tillbringade timmar manuellt välja och ta bort bakgrunder med hjälp av komplexa verktyg",
+    "text_5": "Semi-automatisk Verktyg",
+    "text_6": "Magic wand och liknande verktyg gjorde processen snabbare men fortfarande krävs expertis",
+    "text_7": "AI Revolution",
+    "text_8": "Djupa inlärningsalgoritmer kan nu ta bort bakgrunder direkt med övermänsklig noggrannhet"
+  },
+  "testimonials": {
+    "text_1": "Älskad av Skapare över hela världen",
+    "text_2": "Se vad våra användare säger",
+    "text_3": "Sarah Chen",
+    "text_4": "E-handel ägare",
+    "text_5": "Detta verktyg räddade mig hundratals timmar! Mina produktfoton ser professionella ut och min försäljning har ökat med 40%.",
+    "text_6": "Marco Rodriguez",
+    "text_7": "Social Media Manager",
+    "text_8": "Kvaliteten är otrolig och den är så snabb. Jag kan skapa engagerande inlägg på några minuter istället för timmar.",
+    "text_9": "Aisha Patel",
+    "text_10": "Frilansdesigner",
+    "text_11": "Som någon som arbetar med internationella kunder är detta verktyg en spelväxlare. Perfekta resultat varje gång!"
+  },
+  "cta": {
+    "text_1": "Redo att ta bort bakgrunder som en pro?",
+    "text_2": "Gå med över 1 miljon användare som litar på vårt AI-drivna borttagningsverktyg",
+    "text_3": "Börja ta bort bakgrunder"
+  },
+  "sponsor": {
+    "text_1": "Bli vår exklusiva sponsor",
+    "text_2": "Få permanent branding på vårt verktyg som används av miljontals världen över",
+    "text_3": "Endast $100",
+    "text_4": "livstid sponsring",
+    "text_5": "Begränsad till 1 Sponsor",
+    "text_6": "Vad du får",
+    "text_7": "Din logotyp visas tydligt",
+    "text_8": "Länk till din webbplats",
+    "text_9": "Nämnd i sociala medier",
+    "text_10": "För alltid placering garanti",
+    "text_11": "Perfekt för",
+    "text_12": "SaaS-företag som riktar sig till kreativa",
+    "text_13": "Designverktyg och tjänster",
+    "text_14": "Fotografi företag",
+    "text_15": "E-handelsplattformar",
+    "text_16": "Claim Sponsorship",
+    "text_17": "Nå 1M+ månatliga användare",
+    "text_18": "Först kommer, först serveras"
+  }
+}

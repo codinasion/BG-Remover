@@ -1,0 +1,134 @@
+{
+  "seo": {
+    "title": "Noņemt attēla fonu Brīvs AI fona noņēmēja rīks ",
+    "description": "Ar mūsu bezmaksas rīku AI momentāni noņemt attēlu fonus. Ideāli piemērots e-komercijai, sociālajiem medijiem un dizainam. Pierakstīšanās nav nepieciešama. Apstrādāt attēlus sekundēs ar profesionālās kvalitātes rezultātiem.",
+    "keywords": "noņemt fonu, fona noņēmējs, AI fona noņemšana, caurspīdīgs fons, noņemt attēla fonu bezmaksas, foto fona noņēmējs, tiešsaistes fona nodzēsējs, produkta fotogrāfija, e-komercijas fotogrāfijas, izgriezt fonu, fona noņemšanas rīks, png caurspīdīga, noņemt bg tiešsaistē, foto redaktora fons, attēla fona noņēmējs bezmaksas, auto fona noņemšana, vieds fona noņēmējs, profesionāls fona noņemšana, masveida fona noņemšana",
+    "codinasion": "Kodinazija",
+    "og_title": "Bezmaksas AI fona noņēmējs - nekavējoties noņemiet attēlu fonus",
+    "og_description": "Profesionāla AI darbināta fona noņemšana sekundēs. Ideāli piemērots e-komercijai, sociālajiem medijiem un radošiem projektiem. 100 % brīvi un uz privātumu orientēti. Izmanto 1M+ veidotāji visā pasaulē."
+  },
+  "navbar": {
+    "text_1": "BG savācējs",
+    "text_2": "Īpašības",
+    "text_3": "Lietot mapes",
+    "text_4": "Pārskatīšana",
+    "text_5": "Sākt"
+  },
+  "hero": {
+    "text_1": "AI fona noņemšanas rīks",
+    "text_2": "Izņemt attēlu fonus Tūlītēji",
+    "text_3": "Profesionāla AI darbināta fona noņemšana sekundēs. Ideāli piemērots e-komercijai, sociālajiem medijiem un radošiem projektiem. Nav vajadzīgas projektēšanas prasmes.",
+    "text_4": "Izmēģiniet bezmaksas tagad"
+  },
+  "component": {
+    "text_1": "Izņemt fonu no 3 vienkāršajiem soļiem",
+    "text_2": "Augšupielādē, apstrādā un lejupielādē attēlu caurspīdīgā fonā",
+    "text_3": "Augšupielādēt jūsu attēlu",
+    "text_4": "Velciet un nometiet vai noklikšķiniet, lai izvēlētos",
+    "text_5": "Atbalsta JPG, PNG, WebP (Max 10MB)",
+    "text_6": "Oriģināls",
+    "text_7": "Pārstrādāts",
+    "text_8": "MI noņem fonu",
+    "text_9": "Noklikšķiniet uz procesa, lai redzētu rezultātu",
+    "text_10": "Izņemt fonu",
+    "text_11": "Lejupielādēt PNG",
+    "text_12": "Sākt no",
+    "text_13": "Padomi labākajiem rezultātiem",
+    "text_14": "Lietot attēlus ar skaidru fonu kontrastu",
+    "text_15": "Izvairīties no ļoti maziem vai zemas izšķirtspējas attēliem",
+    "text_16": "Labi apgaismotas fotogrāfijas darbojas labāk nekā tumši attēli",
+    "text_17": "Pirmreizēja apstrāde noslogo MI modeli (~50MB)",
+    "text_18": "Apstrāde aizņem 5-15 sekundes atkarībā no ierīces",
+    "text_19": "Pirmā izmantošana: AI modelis tiks lejupielādēts automātiski (~50MB, tikai vienu reizi). Tā ir privātuma cena."
+  },
+  "bmc": {
+    "text_1": "Inovācija",
+    "text_2": "Man patīk šis rīks? Atbalstīt mūs ar virtuālo kafiju un palīdzēt mums turpināt uzlabot!",
+    "text_3": "Iegādāties kafiju",
+    "text_4": "Paldies, ka atbalstāt atvērtā pirmkoda rīkus!"
+  },
+  "features": {
+    "text_1": "Spēcīgas īpašības, lai gūtu nevainojamus rezultātus",
+    "text_2": "Advanced AI tehnoloģija atbilst lietotājam draudzīgu dizainu, lai nodrošinātu profesionālas kvalitātes fona noņemšanu",
+    "text_3": "Ātri zibens",
+    "text_4": "Apstrādāt attēlus zem 3 sekundēm ar mūsu optimizētajiem AI algoritmiem",
+    "text_5": "100% Privāts",
+    "text_6": "Jūsu attēli tiek apstrādāti lokāli un nekad netiek glabāti mūsu serveros",
+    "text_7": "Darbi globālā mērogā",
+    "text_8": "Optimizēts visiem reģioniem ar daudzvalodu atbalstu drīzumā",
+    "text_9": "Augsta kvalitāte",
+    "text_10": "Saglabāt attēla kvalitāti ar precīzu malu noteikšanu un kropļojumu novēršanu",
+    "text_11": "Perfekta precizitāte",
+    "text_12": "AI darbina malu noteikšanas rokturi sarežģīti mati, kažokādas, un smalkas detaļas",
+    "text_13": "Vairāki formāti",
+    "text_14": "Lejupielādēt PNG, JPG vai WebP ar caurspīdīgu vai krāsainu fonu"
+  },
+  "use_cases": {
+    "text_1": "Ideāli piemērots katram gadījumam",
+    "text_2": "No e-komercijas līdz sociālajiem medijiem, redzēt, kā mūsu rīks pārveido darba plūsmas",
+    "text_3": "E-komercija",
+    "text_4": "Tīru produktu fotogrāfijas tiešsaistes veikaliem",
+    "text_5": "Fotogrāfija",
+    "text_6": "Profesionālā portretu rediģēšana",
+    "text_7": "Sociālie mediji",
+    "text_8": "Uzkrītoši amati un stāsti",
+    "text_9": "Tirdzniecība",
+    "text_10": "Profesionālie kampaņas aktīvi"
+  },
+  "fun_facts": {
+    "text_1": "Apbrīnojami skaitļi",
+    "text_2": "Redzēt ietekmi, ko mēs gūstam visā pasaulē",
+    "text_3": "Attēli apstrādāti",
+    "text_4": "Valstis, kas kalpoja Dievam",
+    "text_5": "Precizitātes rādītājs",
+    "text_6": "Vidējais procesa laiks"
+  },
+  "historical_context": {
+    "text_1": "Fona atcelšanas attīstība",
+    "text_2": "No manuālā darba stundām līdz tūlītējiem AI vadītiem rezultātiem",
+    "text_3": "Manuāls Photoshop Era",
+    "text_4": "Dizaineri pavadīja stundas manuāli izvēloties un noņemot fonu, izmantojot sarežģītus rīkus",
+    "text_5": "Pusautomātisks Rīki",
+    "text_6": "Burvju zizlis un līdzīgi instrumenti padarīja procesu ātrāku, bet joprojām nepieciešamo pieredzi",
+    "text_7": "AI revolūcija",
+    "text_8": "Dziļas mācīšanās algoritmi tagad var noņemt fonu uzreiz ar pārcilvēcisku precizitāti"
+  },
+  "testimonials": {
+    "text_1": "Radītāju mīlestība visā pasaulē",
+    "text_2": "Redzēt, ko saka mūsu lietotāji",
+    "text_3": "Sarah Chen",
+    "text_4": "E-komercijas īpašnieks",
+    "text_5": "Šis rīks izglāba mani simtiem stundu! Mans produkts fotogrāfijas izskatās profesionāli un manu pārdošanas ir pieaudzis par 40%.",
+    "text_6": "Marco Rodriguez",
+    "text_7": "Sociālo mediju pārvaldnieks",
+    "text_8": "Kvalitāte ir neticama, un tā ir tik ātra. Es varu izveidot iesaistošus amatus minūtēs stundu vietā.",
+    "text_9": "Aisha Patel",
+    "text_10": "Freelance Designer",
+    "text_11": "Kā cilvēks, kas strādā ar starptautiskiem klientiem, šis rīks ir spēle mainītājs. Perfekti rezultāti katru reizi!"
+  },
+  "cta": {
+    "text_1": "Gatavs noņemt fonu kā pro?",
+    "text_2": "Pievienoties vairāk nekā 1 miljons lietotāju, kas uzticas mūsu AI-powered fona noņemšanas rīku",
+    "text_3": "Sākt fona dzēšanu"
+  },
+  "sponsor": {
+    "text_1": "Kļūsti par mūsu īpašo sponsoru",
+    "text_2": "Get pastāvīgu zīmolu par mūsu rīku izmanto miljoniem visā pasaulē",
+    "text_3": "Tikai 100 dolāru",
+    "text_4": "Sponsorēšana dzīves laikā",
+    "text_5": "Tikai 1 sponsors",
+    "text_6": "Ko jūs saņemsiet",
+    "text_7": "Jūsu logo labi attēlots",
+    "text_8": "Saite uz jūsu tīmekļa vietni",
+    "text_9": "Minēts sociālajos medijos",
+    "text_10": "Priekšlaicīgas izvietošanas garantija",
+    "text_11": "Ideāls priekš",
+    "text_12": "SaaS uzņēmumi, kuru mērķauditorija ir radošie",
+    "text_13": "Dizaina instrumenti un pakalpojumi",
+    "text_14": "Fotogrāfijas uzņēmumi",
+    "text_15": "E-komercijas platformas",
+    "text_16": "Prasība par sponsorēšanu",
+    "text_17": "Sasniegt 1M+ ikmēneša lietotāji",
+    "text_18": "Pirmais nāk, pirmais apkalpo"
+  }
+}

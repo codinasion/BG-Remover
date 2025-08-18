@@ -1,0 +1,134 @@
+{
+  "seo": {
+    "title": "Poista kuvan tausta vapaa tekoälyn taustan poistotyökalu ...",
+    "description": "Poista kuvataustat välittömästi ilmaisella tekoälykäyttöisellä työkalulla. Täydellinen sähköinen kaupankäynti, sosiaalinen media, ja muotoilu. Ei ilmoittautumista tarvita. Käsittele kuvia sekunneissa ammattimaisten laatutulosten kanssa.",
+    "keywords": "Poista tausta, taustapoistaja, taustapoistaja, AI taustapoistaja, läpinäkyvä tausta, poista kuvataustaton, valokuvanpoistaja, online-taustanpoistaja, tuotevalokuva, verkkokaupan valokuvia, cut out-tausta, taustan poistotyökalu, png-läpinäkyvä, poista bg online, kuvaeditoritausta, kuvataustan poisto, älykäs taustapoistaja, ammattitaustan poisto, irtotaustan poisto",
+    "codinasion": "Kodenoosi",
+    "og_title": "Vapaa tekoälyn taustapoistaja - Poista kuvan taustat hetkessä",
+    "og_description": "Ammattimainen tekoälyllä toimiva taustanpoisto sekunnissa. Täydellinen sähköinen kaupankäynti, sosiaalinen media, ja luovia hankkeita. 100% vapaa ja yksityisyyteen keskittynyt. Käyttää 1M+ luojat ympäri maailmaa."
+  },
+  "navbar": {
+    "text_1": "BG-poistaja",
+    "text_2": "Ominaisuudet",
+    "text_3": "Käyttötapaukset",
+    "text_4": "Uudelleentarkastelu",
+    "text_5": "Aloita"
+  },
+  "hero": {
+    "text_1": "Tekoälyn taustan poistotyökalu",
+    "text_2": "Poista kuvan taustat Välittömästi",
+    "text_3": "Ammattimainen tekoälyllä toimiva taustanpoisto sekunnissa. Täydellinen sähköinen kaupankäynti, sosiaalinen media, ja luovia hankkeita. Suunnittelutaitoja ei tarvita.",
+    "text_4": "Kokeile nyt"
+  },
+  "component": {
+    "text_1": "Poista taustat 3 yksinkertaisessa vaiheessa",
+    "text_2": "Lataa, käsittele ja lataa kuva läpinäkyvällä taustalla",
+    "text_3": "Lataa kuvasi",
+    "text_4": "Vedä ja pudota tai valitse",
+    "text_5": "Tukee JPG, PNG, WebP (Max 10MB)",
+    "text_6": "Alkuperäinen",
+    "text_7": "Jalostettu",
+    "text_8": "Al poistaa taustaa",
+    "text_9": "Napsauta prosessia nähdäksesi tuloksen",
+    "text_10": "Poista tausta",
+    "text_11": "Lataa PNG",
+    "text_12": "Aloita alusta",
+    "text_13": "Vinkkejä parhaisiin tuloksiin",
+    "text_14": "Käytä kuvia, joissa on selkeä tausta kontrasti",
+    "text_15": "Vältä hyvin pieniä tai matalaresoluutioisia kuvia",
+    "text_16": "Hyvin valaistut kuvat toimivat paremmin kuin tummat kuvat",
+    "text_17": "Ensimmäinen käsittely kuormittaa tekoälymallia (~50MB)",
+    "text_18": "Käsittely kestää 5-15 sekuntia laitteesta riippuen",
+    "text_19": "Ensimmäinen käyttö: AI malli lataa automaattisesti (~50MB, vain kerran). Se on Yksityisyyden hinta."
+  },
+  "bmc": {
+    "text_1": "Polttoaine innovaatiomme",
+    "text_2": "Pidätkö tästä työkalusta? Tue meitä virtuaalikahvilla ja auta meitä jatkamaan parantamista!",
+    "text_3": "Osta kahvia",
+    "text_4": "Kiitos avoimen lähdekoodin työkalujen tukemisesta!"
+  },
+  "features": {
+    "text_1": "Tehokas ominaisuudet Täydelliset tulokset",
+    "text_2": "Kehittynyt tekoälytekniikka kohtaa käyttäjäystävällisen muotoilun, joka tuottaa ammattitaitoista taustanpoistoa",
+    "text_3": "Salama Nopea",
+    "text_4": "Käsittele kuvat alle 3 sekunnissa optimoiduilla tekoälyalgoritmeilla",
+    "text_5": "100% Yksityinen",
+    "text_6": "Kuviasi käsitellään paikallisesti eikä niitä koskaan tallenneta palvelimillemme",
+    "text_7": "Toimii maailmanlaajuisesti",
+    "text_8": "Optimoitu kaikille alueille monikielinen tuki tulossa pian",
+    "text_9": "Korkea laatu",
+    "text_10": "Säilytä kuvan laatu tarkka reunan havaitseminen ja anti-aliasointi",
+    "text_11": "Täydellinen tarkkuus",
+    "text_12": "AI-käyttöinen reuna havaitseminen käsittelee monimutkaisia hiuksia, turkista, ja hienoja yksityiskohtia",
+    "text_13": "Useita muotoja",
+    "text_14": "Lataa PNG, JPG tai WebP läpinäkyvä tai värillinen taustat"
+  },
+  "use_cases": {
+    "text_1": "Täydellinen jokaiselle käyttötapaukselle",
+    "text_2": "Sähköisestä kaupasta sosiaaliseen mediaan, katso miten työkalumme muuttaa työnkulkuja",
+    "text_3": "Sähköinen kaupankäynti",
+    "text_4": "Puhtaat tuotekuvat verkkokauppoihin",
+    "text_5": "Valokuvaus",
+    "text_6": "Professional muotokuvan muokkaus",
+    "text_7": "Sosiaalinen media",
+    "text_8": "Tarinoita ja tarinoita",
+    "text_9": "Markkinointi",
+    "text_10": "Professional kampanjan varat"
+  },
+  "fun_facts": {
+    "text_1": "Uskomattomat numerot",
+    "text_2": "Näettekö mitä teemme maailmanlaajuisesti?",
+    "text_3": "Kuvat käsitelty",
+    "text_4": "Maat",
+    "text_5": "Tarkkuus",
+    "text_6": "Keskimääräinen prosessiaika"
+  },
+  "historical_context": {
+    "text_1": "Taustan poiston kehitys",
+    "text_2": "Käsityötunneista tekoälyyn perustuviin tuloksiin",
+    "text_3": "Käsikirja Photoshop Era",
+    "text_4": "Suunnittelijat käyttivät tunteja manuaalisesti valittaessa ja poistettaessa taustoja käyttäen monimutkaisia työkaluja",
+    "text_5": "Puoliautomaattinen Työkalut",
+    "text_6": "Taikasauva ja vastaavat työkalut tekivät prosessista nopeamman, mutta silti tarvittavan asiantuntemuksen",
+    "text_7": "Tekoälyn vallankumous",
+    "text_8": "Syväoppialgoritmit voivat nyt poistaa taustoja välittömästi yli-inhimillisellä tarkkuudella"
+  },
+  "testimonials": {
+    "text_1": "Luojien rakastama maailmalla",
+    "text_2": "Katso mitä käyttäjät sanovat",
+    "text_3": "Sarah Chen",
+    "text_4": "Sähköisen kaupankäynnin omistaja",
+    "text_5": "Tämä työkalu pelasti minut satoja tunteja! Tuotekuvani näyttävät ammattimaisilta ja myyntini on kasvanut 40%.",
+    "text_6": "Marco Rodriguez",
+    "text_7": "Sosiaalinen mediapäällikkö",
+    "text_8": "Laatu on uskomaton ja nopea. Pystyn luomaan houkuttelevia virkoja minuuteissa tuntien sijaan.",
+    "text_9": "Aisha Patel",
+    "text_10": "Freelance-suunnittelija",
+    "text_11": "Kuten joku, joka työskentelee kansainvälisten asiakkaiden, tämä työkalu on pelin-muuttaja. Täydelliset tulokset joka kerta!"
+  },
+  "cta": {
+    "text_1": "Oletko valmis poistamaan taustat kuin ammattilainen?",
+    "text_2": "Liity yli miljoonaan käyttäjään, jotka luottavat tekoälyyn perustuvaan taustanpoistotyökaluumme",
+    "text_3": "Aloita taustan poisto"
+  },
+  "sponsor": {
+    "text_1": "Ryhdy ainoaksi sponsoriksemme",
+    "text_2": "Hanki pysyvä brändäys meidän työkalu käyttää miljoonia maailmanlaajuisesti",
+    "text_3": "Vain 100 dollaria.",
+    "text_4": "Elämänaikainen sponsorointi",
+    "text_5": "Rajoitettu 1 sponsoriin",
+    "text_6": "Mitä saat",
+    "text_7": "Logo näkyvästi esillä",
+    "text_8": "Linkki verkkosivustoosi",
+    "text_9": "Mainittu sosiaalisessa mediassa",
+    "text_10": "Ikuinen sijoitustakuu",
+    "text_11": "Täydellinen",
+    "text_12": "SaaS-yritykset, jotka pyrkivät luovaan toimintaan",
+    "text_13": "Suunnittelutyökalut ja -palvelut",
+    "text_14": "Valokuvausyritykset",
+    "text_15": "Sähköiset kaupankäyntialustat",
+    "text_16": "Väite",
+    "text_17": "Tavoittaa 1M+ kuukausittaiset käyttäjät",
+    "text_18": "Ensimmäinen tuli, ensimmäinen palveli"
+  }
+}

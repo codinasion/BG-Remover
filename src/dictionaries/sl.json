@@ -1,0 +1,134 @@
+{
+  "seo": {
+    "title": "Odstrani ozadje slike brezplačno ",
+    "description": "Takoj odstranite ozadje slike z našim brezplačnim orodjem AI. Idealen za e-trgovanje, socialne medije in oblikovanje. Prijava ni potrebna. Obdelujemo slike v sekundah z rezultati strokovne kakovosti.",
+    "keywords": "odstraniti ozadje, odstranjevalec ozadja, odstranjevanje ozadja AI, transparentno ozadje, odstranjevanje ozadja slike brezplačno, odstranjevalec ozadja fotografije, brisalec ozadja na spletu, fotografija izdelka, e-trgovanje fotografije, izrezano ozadje, orodje za odstranjevanje ozadja, png prozorno, odstranjevanje bg na spletu, ozadje urejevalnika fotografij, odstranjevalec ozadja brez slike, samodejna odstranitev ozadja, pametni odstranjevalec ozadja, profesionalna odstranitev ozadja, velika odstranitev ozadja",
+    "codinasion": "Kodinazija",
+    "og_title": "Brezplačni Odstranjevalnik ozadja AI - Odstranite ozadje slike Takoj ",
+    "og_description": "Profesionalna AI-odstranitev ozadja v nekaj sekundah. Idealen za e-trgovanje, socialne medije in ustvarjalne projekte. 100% brezplačno in zasebnost osredotočena. Uporabljajo jih ustvarjalci 1M+ po vsem svetu."
+  },
+  "navbar": {
+    "text_1": "BG Odstranjevalec",
+    "text_2": "Značilnosti",
+    "text_3": "Uporabi primere",
+    "text_4": "Pregledi",
+    "text_5": "Začni"
+  },
+  "hero": {
+    "text_1": "Orodje za odstranjevanje ozadja AI",
+    "text_2": "Odstrani ozadje slike Takoj",
+    "text_3": "Profesionalna AI-odstranitev ozadja v nekaj sekundah. Idealen za e-trgovanje, socialne medije in ustvarjalne projekte. Projektiranje ni potrebno.",
+    "text_4": "Poskusi zdaj brezplačno"
+  },
+  "component": {
+    "text_1": "Odstrani ozadje v 3 enostavnih korakih",
+    "text_2": "Naloži, obdelaj in prenesej svojo sliko s prosojnim ozadjem",
+    "text_3": "Naloži svojo sliko",
+    "text_4": "Povlecite in spustite ali kliknite za izbiro",
+    "text_5": "Podpira JPG, PNG, WebP (Max 10MB)",
+    "text_6": "Original",
+    "text_7": "Obdelan",
+    "text_8": "AI odstrani ozadje",
+    "text_9": "Kliknite proces za prikaz rezultata",
+    "text_10": "Odstrani ozadje",
+    "text_11": "Prenesi PNG",
+    "text_12": "Začni znova",
+    "text_13": "Nasveti za najboljše rezultate",
+    "text_14": "Uporabi slike z jasnim kontrastom predmeta",
+    "text_15": "Izogibajte se zelo majhnim ali nizkoresolucijskim slikam",
+    "text_16": "Dobro osvetljene fotografije delujejo bolje kot temne slike",
+    "text_17": "Model AI (~50MB)",
+    "text_18": "Obdelava traja 5-15 sekund, odvisno od naprave",
+    "text_19": "Prva uporaba: model AI se samodejno prenese (~50MB, samo enkrat). To je cena zasebnosti."
+  },
+  "bmc": {
+    "text_1": "Optimizacija inovacij",
+    "text_2": "Ti je všeč to orodje? Podprite nas z virtualno kavo in nam pomagajte še naprej izboljševati!",
+    "text_3": "Kupi kavo",
+    "text_4": "Hvala za podporo odprtokodnim orodjem!"
+  },
+  "features": {
+    "text_1": "Močne lastnosti za popolne rezultate",
+    "text_2": "Napredna AI tehnologija izpolnjuje uporabniku prijazno oblikovanje za zagotavljanje profesionalne odstranitve ozadja",
+    "text_3": "Strela, hitro.",
+    "text_4": "Obdelajte slike v manj kot 3 sekundah z našimi optimiziranimi algoritmi AI",
+    "text_5": "100% zasebno",
+    "text_6": "Vaše slike so obdelane lokalno in nikoli shranjene na naših strežnikih",
+    "text_7": "Deluje globalno",
+    "text_8": "Optimizirano za vse regije z večjezikovno podporo kmalu",
+    "text_9": "Visoka kakovost",
+    "text_10": "Ohranite kakovost slike z natančnim zaznavanjem robov in preprečevanjem glajenja",
+    "text_11": "Popolna natančnost",
+    "text_12": "AI-pogonsko zaznavanje robov ročaji kompleksni lasje, krzno, in fine podrobnosti",
+    "text_13": "Več oblik",
+    "text_14": "Prenesite v PNG, JPG ali WebP s prosojnim ali barvnim ozadjem"
+  },
+  "use_cases": {
+    "text_1": "Idealen za vsak primer uporabe",
+    "text_2": "Od e-trgovanja do družbenih medijev si oglejte, kako naše orodje spreminja potek dela",
+    "text_3": "E-trgovanje",
+    "text_4": "Čiste fotografije izdelkov za spletne trgovine",
+    "text_5": "Fotografija",
+    "text_6": "Strokovno urejanje portretov",
+    "text_7": "Socialni mediji",
+    "text_8": "Oglejski položaji in zgodbe",
+    "text_9": "Trženje",
+    "text_10": "Sredstva poklicne kampanje"
+  },
+  "fun_facts": {
+    "text_1": "Neverjetne številke",
+    "text_2": "Poglejte, kakšen vpliv imamo po vsem svetu.",
+    "text_3": "Obdelane slike",
+    "text_4": "Države, ki služijo",
+    "text_5": "Stopnja točnosti",
+    "text_6": "Povprečni čas procesa"
+  },
+  "historical_context": {
+    "text_1": "Razvoj odstranitve ozadja",
+    "text_2": "Od ur ročnega dela do instantnih rezultatov na AI",
+    "text_3": "Ročna Photoshop Era",
+    "text_4": "Oblikovalci so porabili ure za ročno izbiro in odstranjevanje ozadja z uporabo zapletenih orodij",
+    "text_5": "Polavtomatsko Orodja",
+    "text_6": "Magična palica in podobno orodje je proces hitreje, vendar še vedno zahteva strokovno znanje.",
+    "text_7": "AI revolucija",
+    "text_8": "Algoritem globokega učenja lahko sedaj z nadčloveško natančnostjo takoj odstrani ozadje"
+  },
+  "testimonials": {
+    "text_1": "Ljubljeni od Stvarnikov po svetu",
+    "text_2": "Poglej, kaj pravijo naši uporabniki.",
+    "text_3": "Sarah Chen",
+    "text_4": "Lastnik e-trgovine",
+    "text_5": "To orodje mi je prihranilo več sto ur! Moje fotografije so videti profesionalne, prodaja pa se je povečala za 40 %.",
+    "text_6": "Marco Rodriguez",
+    "text_7": "Upravljalnik družbenih medijev",
+    "text_8": "Kakovost je neverjetna in tako hitra. Lahko ustvarim delovna mesta v minutah namesto v urah.",
+    "text_9": "Aisha Patel",
+    "text_10": "Samostojni oblikovalec",
+    "text_11": "Kot nekdo, ki dela z mednarodnimi strankami, to orodje spreminja igro. Perfektni rezultati vsakič!"
+  },
+  "cta": {
+    "text_1": "Ali ste pripravljeni odstraniti ozadje kot profesionalec?",
+    "text_2": "Pridružite se več kot 1 milijonu uporabnikov, ki zaupajo našemu orodjem za odstranjevanje ozadja, ki ga poganja AI",
+    "text_3": "Začni z odstranjevanjem ozadja"
+  },
+  "sponsor": {
+    "text_1": "Postanite naš ekskluzivni sponzor",
+    "text_2": "Pridobite trajno blagovno znamko na orodje, ki ga uporabljajo milijoni po vsem svetu",
+    "text_3": "Samo 100 dolarjev.",
+    "text_4": "Sponzorstvo za življenjsko dobo",
+    "text_5": "Omejeno na 1 Sponzor",
+    "text_6": "Kaj dobiš",
+    "text_7": "Vaš logotip je vidno prikazan",
+    "text_8": "Povezava na vašo spletno stran",
+    "text_9": "Omenjeno v družbenih medijih",
+    "text_10": "Jamstvo za vedno dajanje",
+    "text_11": "Perfektno za",
+    "text_12": "SaaS podjetja, ki se osredotočajo na ustvarjalce",
+    "text_13": "Projektna orodja in storitve",
+    "text_14": "Fotografska podjetja",
+    "text_15": "Platforme za e-trgovino",
+    "text_16": "Sponzorstvo za zahtevek",
+    "text_17": "Doseži 1M+ mesečnih uporabnikov",
+    "text_18": "Prvi pride, prvi melje"
+  }
+}

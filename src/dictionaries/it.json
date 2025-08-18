@@ -1,0 +1,134 @@
+{
+  "seo": {
+    "title": "Rimuovere immagine Background Free | AI Background Remover Tool | BG Remover",
+    "description": "Rimuovere gli sfondi immagine istantaneamente con il nostro strumento gratuito AI-powered. Perfetto per e-commerce, social media e design. Nessuna registrazione richiesta. Elaborare immagini in pochi secondi con risultati di qualità professionale.",
+    "keywords": "rimuovere lo sfondo, rimozione di sfondo, rimozione di fondo AI, sfondo trasparente, rimuovere lo sfondo di immagine libero, rimozione di sfondo di foto, gomma di sfondo on-line, fotografia di prodotto, foto di e-commerce, ritagliare sfondo, strumento di rimozione di sfondo, png trasparente, rimuovere bg online, sfondo di editor di foto, rimozione di sfondo di immagine libero, rimozione di sfondo automatico, rimozione di sfondo intelligente, rimozione di sfondo professionale, rimozione di massa",
+    "codinasion": "Codinanza",
+    "og_title": "Rimozione sfondo AI gratuita - Rimuovi sfondi immagine istantaneamente | BG Remover",
+    "og_description": "Rimozione professionale di sfondo alimentata da AI in pochi secondi. Perfetto per e-commerce, social media e progetti creativi. 100% gratuito e protetto dalla privacy. Usato da 1M+ creatori in tutto il mondo."
+  },
+  "navbar": {
+    "text_1": "BG Remover",
+    "text_2": "Caratteristiche",
+    "text_3": "Utilizzare i casi",
+    "text_4": "Recensioni",
+    "text_5": "Iniziare"
+  },
+  "hero": {
+    "text_1": "Strumento di rimozione dello sfondo AI",
+    "text_2": "Rimuovi lo sfondo dell'immagine Immediatamente",
+    "text_3": "Rimozione professionale di sfondo alimentata da AI in pochi secondi. Perfetto per e-commerce, social media e progetti creativi. Nessuna capacità di progettazione necessaria.",
+    "text_4": "Prova gratis ora"
+  },
+  "component": {
+    "text_1": "Rimuovere Backgrounds in 3 semplici passaggi",
+    "text_2": "Caricare, elaborare e scaricare l'immagine con sfondo trasparente",
+    "text_3": "Carica la tua immagine",
+    "text_4": "Trascinare e rilasciare o fare clic per selezionare",
+    "text_5": "Supporta JPG, PNG, WebP (Max 10MB)",
+    "text_6": "Originale",
+    "text_7": "Processo",
+    "text_8": "AI sta rimuovendo lo sfondo",
+    "text_9": "Fare clic sul processo per vedere il risultato",
+    "text_10": "Rimuovi lo sfondo",
+    "text_11": "Scarica PNG",
+    "text_12": "Iniziare",
+    "text_13": "Consigli per i migliori risultati",
+    "text_14": "Utilizzare immagini con chiaro contrasto sfondo soggetto",
+    "text_15": "Evitare immagini molto piccole o a bassa risoluzione",
+    "text_16": "Le foto ben illuminate funzionano meglio delle immagini scure",
+    "text_17": "La prima lavorazione carica il modello AI (~50MB)",
+    "text_18": "L'elaborazione richiede 5-15 secondi a seconda del dispositivo",
+    "text_19": "Primo utilizzo: il modello AI verrà scaricato automaticamente (~50MB, una sola volta). E' il costo della Privacy."
+  },
+  "bmc": {
+    "text_1": "La nostra innovazione",
+    "text_2": "Adoro questo strumento? Supportaci con un caffè virtuale e aiutaci a migliorare!",
+    "text_3": "Comprare caffè",
+    "text_4": "Grazie per aver supportato gli strumenti open source!"
+  },
+  "features": {
+    "text_1": "Caratteristiche potenti per risultati perfetti",
+    "text_2": "La tecnologia AI avanzata soddisfa il design facile da usare per fornire la rimozione di sfondo di qualità professionale",
+    "text_3": "Illuminazione veloce",
+    "text_4": "Elaborare immagini in meno di 3 secondi con i nostri algoritmi AI ottimizzati",
+    "text_5": "100% privato",
+    "text_6": "Le tue immagini vengono elaborate localmente e non memorizzate sui nostri server",
+    "text_7": "Funziona globalmente",
+    "text_8": "Ottimizzato per tutte le regioni con supporto multilingua in arrivo",
+    "text_9": "Alta qualità",
+    "text_10": "Conservare la qualità dell'immagine con rilevamento preciso del bordo e anti-aliasing",
+    "text_11": "Precisione perfetta",
+    "text_12": "AI-powered edge rilevamento gestisce capelli complessi, pelliccia e dettagli fini",
+    "text_13": "Formati multipli",
+    "text_14": "Scarica in PNG, JPG o WebP con sfondi trasparenti o colorati"
+  },
+  "use_cases": {
+    "text_1": "Perfetto per ogni caso d'uso",
+    "text_2": "Dall'e-commerce ai social media, vedere come il nostro strumento trasforma i flussi di lavoro",
+    "text_3": "E-commerce",
+    "text_4": "Foto di prodotto pulito per negozi online",
+    "text_5": "Fotografia",
+    "text_6": "Redazione di ritratto professionale",
+    "text_7": "Social Media",
+    "text_8": "Articoli e storie accattivanti",
+    "text_9": "Marketing",
+    "text_10": "Attività di campagna professionale"
+  },
+  "fun_facts": {
+    "text_1": "Numeri incredibili",
+    "text_2": "Vedi l'impatto che stiamo facendo in tutto il mondo",
+    "text_3": "Immagini elaborate",
+    "text_4": "Paesi Serviti",
+    "text_5": "Tasso di accuratezza",
+    "text_6": "Tempo medio di processo"
+  },
+  "historical_context": {
+    "text_1": "L'evoluzione della rimozione dello sfondo",
+    "text_2": "Dalle ore di lavoro manuale ai risultati AI istantanei",
+    "text_3": "Photoshop manuale Era",
+    "text_4": "I progettisti hanno trascorso ore selezionando e rimuovendo manualmente gli sfondi utilizzando strumenti complessi",
+    "text_5": "Semiautomatico Strumenti",
+    "text_6": "bacchetta magica e strumenti simili hanno reso il processo più veloce ma ancora necessaria competenza",
+    "text_7": "La rivoluzione dell'intelligenza",
+    "text_8": "Gli algoritmi di apprendimento approfondito possono ora rimuovere immediatamente gli sfondi con accuratezza sovrumana"
+  },
+  "testimonials": {
+    "text_1": "Amata da Creatori in tutto il mondo",
+    "text_2": "Guarda cosa dicono i nostri utenti",
+    "text_3": "Sarah Chen",
+    "text_4": "E-commerce Proprietario",
+    "text_5": "Questo strumento mi ha salvato centinaia di ore! Le mie foto di prodotto sembrano professionali e le mie vendite sono aumentate del 40%.",
+    "text_6": "Marco Rodriguez",
+    "text_7": "Social Media Manager",
+    "text_8": "La qualità è incredibile ed è così veloce. Posso creare dei messaggi coinvolgenti in pochi minuti invece delle ore.",
+    "text_9": "Aisha Patel",
+    "text_10": "Freelance Designer",
+    "text_11": "Come qualcuno che lavora con i clienti internazionali, questo strumento è un cambio di gioco. Risultati perfetti ogni volta!"
+  },
+  "cta": {
+    "text_1": "Pronto a rimuovere Backgrounds come un Pro?",
+    "text_2": "Unisciti a oltre 1 milione di utenti che si fidano del nostro strumento di rimozione di sfondo AI-powered",
+    "text_3": "Iniziare a rimuovere Backgrounds"
+  },
+  "sponsor": {
+    "text_1": "Diventa il nostro sponsor esclusivo",
+    "text_2": "Ottenere branding permanente sul nostro strumento utilizzato da milioni in tutto il mondo",
+    "text_3": "Solo 100 dollari",
+    "text_4": "Sponsorizzazioni di vita",
+    "text_5": "Limitato a 1 Sponsor",
+    "text_6": "Che cosa si ottiene",
+    "text_7": "Il tuo logo è visibile",
+    "text_8": "Link al tuo sito web",
+    "text_9": "Menzionato nei social media",
+    "text_10": "Garanzia di posizionamento sempre",
+    "text_11": "Perfetto per",
+    "text_12": "Aziende SaaS che mirano ai creativi",
+    "text_13": "Strumenti di progettazione e servizi",
+    "text_14": "Imprese di fotografia",
+    "text_15": "piattaforme di e-commerce",
+    "text_16": "Richiedi Sponsor",
+    "text_17": "Raggiungere 1M+ utenti mensili",
+    "text_18": "Prima vieni, prima servito"
+  }
+}
